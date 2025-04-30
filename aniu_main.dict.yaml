@@ -14627,6 +14627,7 @@ CBD	cbd	100
 双	cc	100
 骚	cc	90
 骏	cc	80
+难以	cc	70
 双节	cca	100
 鳄鱼鞋	cca	90
 双工	ccaa	100
@@ -18104,8 +18105,8 @@ cosplay	cosp	90
 騋	cosw	5
 鯠	cosw	5
 骗术	cosy	100
-Cosplay	cosy	90
-cosplay	cosy	80
+CosyVoice	cosy	90	AI
+Cosplay	cosy	80
 騏	cosy	5
 鯕	cosy	5
 骗入	cot	100
@@ -25078,7 +25079,6 @@ DJI	dji	100
 历史主义	dkyy	100
 石	dl	100
 历	dl	90
-奋	dl	80
 厘	dla	100
 感恩节	dla	90
 大罢工	dla	80
@@ -26323,6 +26323,7 @@ DNS服务器	dnsk	100
 成道	dnut	90	个
 成立	dnuu	100
 尢	dnv	100
+尤	dnv	110
 盛怒	dnvc	100
 尤如	dnvk	100
 成婚	dnvq	100
@@ -32668,7 +32669,6 @@ C03F3C	eexa	60	个
 造诣	ekyx	100
 助	el	100
 盘	el	90
-爵	el	80
 助攻	ela	100
 助工	elaa	100
 盘菜	elae	100
@@ -71453,8 +71453,8 @@ IES灯光	iesi	100
 尘缘	ifx	100
 潮红	ifxa	100
 法经	ifxc	100
-法线	ifxg	100
-没声音，再好的戏也出不来	ifxg	90
+法线	ifxg	90
+测地线	ifxg	100	物
 法旨	ifxj	100
 法纪	ifxn	100
 泪雨纷飞	ifxn	90
@@ -90089,7 +90089,7 @@ kg	kg	70
 唔该	kgyy	90
 唯理主义	kgyy	80
 嘴	kh	100
-患	kh	90
+患	khn	100
 吕	kh	80
 🫦	kh	5
 👄	kh	5
@@ -90385,7 +90385,7 @@ kg	kg	70
 中风	khmr	100
 呆账	khmt	100
 中分	khmv	100
-呆	khn	100
+呆	kh	90
 听得懂	khn	90
 特征性	khn	80
 吅	khn	70
@@ -130562,7 +130562,7 @@ PS痕迹	psuy	100
 䘤	psyy	5
 放	pt	100
 族	pt	90
-窗	pt	80
+穿透力	ptl	90
 🪟	pt	5
 宅	pta	100
 方程式	pta	90
@@ -130702,8 +130702,7 @@ PS痕迹	psuy	100
 放起	ptkn	100
 放牧	ptkt	100
 放哪	ptkv	100
-穿透力	ptl	100
-宋冬野	ptl	90
+窗	ptl	100
 安委办	ptl	80
 宋冬野	ptla	100
 放置	ptlf	100
@@ -139945,6 +139944,8 @@ QWERTZ键盘	qwee	90
 鍮	qweh	5
 锻造	qwek	100
 欠赞	qweq	100
+Qwen3	qwen	100	AI
+Qwen	qwen	90	AI
 QWERTY	qwer	100
 QWERTZ	qwer	90
 殄	qwet	100
@@ -142042,6 +142043,7 @@ rar	rar	80
 反被	rcph	80
 擂台赛	rcpm	100
 反之	rcpp	100
+质能守恒	rcpn	100	物
 反放	rcpt	100
 挨宰	rcpu	100
 把它	rcpx	100
@@ -143218,6 +143220,7 @@ Return	retu	100
 扶桑	rfcc	100
 振动马达	rfcd	100
 技能	rfce	100
+质能	rfce	90	物
 插翅难逃	rfci	100
 擂台	rfck	100
 搕	rfcl	5
@@ -152203,8 +152206,8 @@ Ruby	ruby	100
 扫听	rvkr	100
 招呼	rvkt	100
 🙋	rvkt	5
-抛	rvl	100
-势	rvl	90
+势	rvl	100
+抛	rvl	90
 拨转	rvlf	100
 挪车	rvlg	100
 热车	rvlg	90
@@ -152489,8 +152492,8 @@ Ruby	ruby	100
 报录比	rvxx	100
 扫弦	rvxy	100
 拨弦	rvxy	90
-拨	rvy	100
-执	rvy	90
+执	rvy	100
+拨	rvy	90
 提建议	rvy	80
 抛离	rvyb	100
 抛弃	rvyc	100
@@ -158243,7 +158246,6 @@ Skype	skyp	100
 机器语言	skyy	90
 标	sl	100
 禁	sl	90
-棵	sl	80
 ⛔	sl	5
 🚫	sl	5
 🈲	sl	5
@@ -181615,7 +181617,7 @@ UWP应用	uwpe	100
 閄	uwyy	5
 北	ux	100
 背	ux	90
-弟	ux	80
+弟	uxh	110
 冀	uxa	100
 冰红茶	uxa	90
 冰绿茶	uxa	80
@@ -194615,8 +194617,8 @@ WLAN	wlan	100
 全国三卷	wldu	100
 全国Ⅲ卷	wldu	90
 作态	wldy	100
-偎	wle	100
-作用	wle	90	常
+作用	wle	100	常
+偎	wle	90
 命里有时终须有	wlee	100
 人固有一死，或重于泰山，或轻于鸿毛	wlee	90
 命里有时终须有，命里无时莫强求	wlef	100
@@ -209006,7 +209008,7 @@ yeelight	yeet	100
 谣谚	yeyu	100
 谁用谁知道	yeyu	90
 读	yf	100
-诗	yf	90
+诗	yff	110
 诸	yf	80
 这都	yf	70
 计划	yfa	100
@@ -209119,7 +209121,7 @@ yeelight	yeet	100
 永远不要嘲笑一个有梦想的人	yfgw	90
 永远不要嘲笑一个正在努力的人	yfgw	80
 永志不忘	yfgy	100
-计	yfh	100
+计	yf	90
 讦	yfh	90
 这都行	yfh	80
 讨饶	yfha	100
