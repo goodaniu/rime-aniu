@@ -63,6 +63,7 @@ round_corner:
 #界面风格、功能开关
 style:
   auto_caps: false #自動句首大寫:true|false|ascii
+  # show_comment: true #顯示提示區，看不出有什么区别
   background_dim_amount: 0.5
   root_background: keyboard_back_color # 整个键盘区+候选栏的背景图/色
   candidate_font: han.ttf  #候选字体
@@ -330,7 +331,7 @@ liquid_keyboard:
       - Return2
       - Hide
       - liquid_keyboard_tabs
-  keyboards: [emoji, math, ascii, cn, clipboard, collection, draft, symbollist, list, jiaobiao, history, markdown, zhibiao, ids, symbol, tabs, pinyin, script_symbols, jp, grease, rusa, korea, lation, yinbiao, unit, yanwenzi, combing, emoji_full, candidate]  #tab列表
+  keyboards: [emoji, math, ascii, cn, clipboard, symbol, collection, draft, symbollist, list, jiaobiao, history, markdown, zhibiao, ids, tabs, pinyin, script_symbols, jp, grease, rusa, korea, lation, yinbiao, unit, yanwenzi, combing, emoji_full, candidate]  #tab列表
   tabs:
     name: 更多
     type: TABS
@@ -371,7 +372,7 @@ liquid_keyboard:
   math:   #tab名称
     type: SINGLE
     name: 数学
-    keys: "≈＝≠≌<>≤≥≡()[]{}-+±×*/÷&∥%‰‱°′″∫∮∯∬∭∰∞∑∧∏∈∵∴⊥∝∨∪•√〒∝∽∈∩∧⊙⌒∥∟∣∂∆∞≌∉∪∨⊕⊿⊥∠∫∬∭"  #tab中的按键列表
+    keys: "≈＝≠≌<>≤≥≡()[]{}-+±×*/÷√²³i&∥%‰‱°′″∫∮∯∬∭∰∞∑∧∏∈∵∴⊥∝∨∪•〒∝∽∈∩∧⊙⌒∥∟∣∂∆∞≌∉∪∨⊕⊿⊥∠∫∬∭"  #tab中的按键列表
   cn:
     type: SINGLE
     name: 中文
@@ -501,15 +502,14 @@ preset_keyboards:
       {click: 0, long_click: 0, swipe_up: fanxiegang, swipe_down: /, label_symbol: '/',__include: mystyle/key_num},
     # 第一行
       {click: q, long_click: Q, label_symbol: '·',swipe_up: '·',__include: mystyle/key_abc1},
-      {click: w, long_click: W, label_symbol: '←', swipe_up: Left1,__include: mystyle/key_abc1},
-      {click: e, long_click: E, label_symbol: '↑', swipe_up: Up,__include: mystyle/key_abc1},
+      {click: w, long_click: W, label_symbol: '+', swipe_up: '+',__include: mystyle/key_abc1},
+      {click: e, long_click: E, label_symbol: '=', swipe_up: '=',__include: mystyle/key_abc1},
       { click: r,
-          long_click: R, label_symbol: '↓',
-          swipe_down: Down,
-          swipe_up: Down,
+          long_click: R, label_symbol: '|',
+          swipe_up: '|',
           __include: mystyle/key_abc1
         },
-      {click: t, long_click: T, label_symbol: '→', swipe_up: Right1,__include: mystyle/key_abc1},
+      {click: t, long_click: T, label_symbol: '↶', swipe_up: undo,__include: mystyle/key_abc1},
       {click: y, long_click: Y, label_symbol: '…', swipe_up: '……',__include: mystyle/key_abc1},
       { click: u, long_click: U,
           label_symbol: '`',
@@ -553,7 +553,7 @@ preset_keyboards:
       {click: 'k', long_click: K, label_symbol: "'",swipe_up: "danyinhao", swipe_down: '‘’{Left}', __include: mystyle/key_abc2},
       {click: 'l', long_click: L, label_symbol: '"', swipe_up: 'shuangyin', swipe_down: '"', __include: mystyle/key_abc2},
       # 第三行
-      {click: Shift_L, swipe_up: Tab, hilited_key_back_color: benter, key_back_color: c1, key_text_color: tbs, width: 11}, 
+      {click: Shift_L, hilited_key_back_color: benter, key_back_color: c1, key_text_color: tbs, width: 11}, 
       {click: z, long_click: Z,
           label_symbol: '☑', 
           swipe_up: select_all,
@@ -578,7 +578,7 @@ preset_keyboards:
       # 第四行
       {click: Keyboard_number, swipe_up: Keyboard_numberb, key_back_color: c3, key_text_color: tgn, key_symbol_color: ksc4, long_click: Theme_settings, width: 16}, 
       {click: Mode_switch, key_back_color: c4, key_text_color: tgn, key_text_size: 18, key_symbol_color: ksc4, long_click: Keyboard_func, swipe_up: Keyboard_bqrw, width: 14}, 
-      {click: space, ascii: space3, __include: mystyle/key_abc4, long_click: Menu, swipe_left: Left, swipe_right: Right, swipe_up: Tab2, width: 26, has_menu: select1}, 
+      {click: space, ascii: space3, __include: mystyle/key_abc4, long_click: Menu,swipe_up: '	', swipe_left: Left, swipe_right: Right, width: 26, has_menu: select1}, 
       {click: ",", key_back_color: c5, key_text_color: th4, key_symbol_color: th4, label: "，", long_click: liquid_keyboard_ascii, swipe_up: "!", label_symbol: "!", width: 14, has_menu: select2}, 
       {click: ., key_back_color: c6, key_text_color: th4, key_symbol_color: th4, label: "。", long_click: liquid_keyboard_markdown, swipe_up: "?",label_symbol: "?", width: 14, has_menu: select3}, 
       {click: Return, composing: Return1, key_back_color: c7, key_text_color: tenter, swipe_up: Escape, width: 16}]
@@ -622,20 +622,20 @@ preset_keyboards:
     author: 'aniu'
     ascii_mode: 0
     width: 25
-    keys: [
-#      { click: CALCULATOR,__include},
-      { click: Keyboard_edit, __include: mystyle/funcs},
-      { click: VOICE_ASSIST},
-      { click: Schema_switchcn, label: "直接切换", __include: mystyle/funcs},
-      { click: Color_switch, __include: mystyle/funcs},
-      { click: IME_switch, __include: mystyle/funcs},
-      { click: Share, __include: mystyle/funcs},
-      { click: Deploy},
-      { click: Sync},
-      { click: Keyboard_last_lock, key_back_color: c3},
-      { click: Bing, __include: mystyle/funcs},
-      { click: liquid_keyboard_clipboard, __include: mystyle/funcs},
-      { click: Settings, __include: mystyle/funcs}]
+    keys: 
+#     - { click: CALCULATOR,__include},
+      - { click: Keyboard_edit, __include: mystyle/funcs}
+      - { click: VOICE_ASSIST}
+      - { click: Schema_switchcn, label: "直接切换", __include: mystyle/funcs}
+      - { click: Color_switch, __include: mystyle/funcs}
+      - { click: IME_switch, __include: mystyle/funcs}
+      - { click: Share, __include: mystyle/funcs}
+      - { click: Deploy}
+      - { click: Sync}
+      - { click: Keyboard_last_lock, key_back_color: c3}
+      - { click: Bing, __include: mystyle/funcs}
+      - { click: liquid_keyboard_clipboard, __include: mystyle/funcs}
+      - { click: Settings, __include: mystyle/funcs}
       
       
   markdown1:

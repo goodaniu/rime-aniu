@@ -3,13 +3,20 @@ patch:
   ## 7890四个数字键，改成向上翻页、四选、五选、向下翻页
   # "preset_keyboards/default/keys/@6/has_menu": Page_Up
   "preset_keyboards/default/keys/@7/has_menu": select4
-  "preset_keyboards/default/keys/@8/has_menu": select5
+  # "preset_keyboards/default/keys/@8/has_menu": select5
   "preset_keyboards/default/keys/@9/has_menu": Page_Down
+  # "preset_keyboards/func/keys/+": 
+    # - { click: Comment_switch,key_back_color: c2}
+  style/+:
+    annotation_format: "%s"  # 允许显示注释
+    font_point: 12           # 注释字体大小
+
   
   preset_keys/+:
     select4: 
-      label: "四"
+      # label: "四"
       send: 4
     select5: 
-      label: " 五 "
+      # label: " 五 "
       send: 5
+    # Comment_switch: {toggle: _hide_comment, send: Mode_switch, states: [ 有註釋, 無註釋]}

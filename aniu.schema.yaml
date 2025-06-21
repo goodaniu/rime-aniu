@@ -53,11 +53,11 @@ engine:
     - table_translator
     - lua_translator@*wubi86_jidian_date_translator # 日期、时间、星期
     - history_translator@repeat_last_input # 重复上一次输入，对应下面的 repeat_last_input
-    - lua_translator@*aniu_multi_line
   filters:
     - simplifier@tradition
 #    - lua_filter@*wubi86_jidian_single_char_first_filter # 单字优先
 #   - lua_filter@*wubi86_jidian_single_char_only # 纯单字
+    - lua_filter@*aniu_multi_line_filter
 
 
 

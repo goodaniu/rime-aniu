@@ -68,7 +68,15 @@ function wubi86_jidian_date_translator(input, seg)
     --     yield(Candidate("month", seg.start, seg._end, os.date("%b"), "缩写"))
     -- end
 		    -- 匹配格式：/ + 8位数字（如 /20231122）
-    if input:match("^/[0-9][0-9][0-9][0-9][0-9][0-9]$") then
+    if input:match("^/[0-1][0-9][0-3][0-9]$") then
+        local nums = input:sub(2,5)  -- 去掉前缀获取纯数字
+        local m = tonumber(nums:sub(1,2))
+        local d = nums:sub(3,4)
+        
+        -- 生成候选日期（带/前缀的原文会被替换）
+        yield(Candidate("date", seg.start, seg._end, string.format("%s月%d日",m,d), ""))
+    end
+    if input:match("^/[0-3][0-9][0-9][0-9][0-1][0-9]$") then
         local nums = input:sub(2,7)  -- 去掉前缀获取纯数字
         local y = tonumber(nums:sub(1,4))
         local m = nums:sub(5,6)
@@ -76,7 +84,7 @@ function wubi86_jidian_date_translator(input, seg)
         -- 生成候选日期（带/前缀的原文会被替换）
         yield(Candidate("date", seg.start, seg._end, string.format("%s年%d月",y,m), ""))
     end
-    if input:match("^/[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]$") then
+    if input:match("^/[0-3][0-9][0-9][0-9][0-1][0-9][0-3][0-9]$") then
         local nums = input:sub(2,9)  -- 去掉前缀获取纯数字
         local y = tonumber(nums:sub(1,4))
         local m = nums:sub(5,6)
@@ -85,6 +93,7 @@ function wubi86_jidian_date_translator(input, seg)
         -- 生成候选日期（带/前缀的原文会被替换）
         yield(Candidate("date", seg.start, seg._end, string.format("%s年%d月%d日",y,m,d), ""))
         yield(Candidate("date", seg.start, seg._end, y .. "-" .. m .. "-" .. d, ""))
+        yield(Candidate("date", seg.start, seg._end, string.format("%s/%d/%d",y,m,d), ""))
         yield(Candidate("date", seg.start, seg._end, y .. "年" .. m .. "月" .. d .. "日", ""))
     end
 end
