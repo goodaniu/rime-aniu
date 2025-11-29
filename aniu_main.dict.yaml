@@ -500,7 +500,6 @@ AA制	aarm	100
 茫茫夜色	aayq	100
 蔡英文	aayy	100
 节	ab	100
-萨	abu	110
 巷	ab	80
 节节	aba	100
 节节	abab	100
@@ -523,6 +522,7 @@ ABC	abc	90
 中国农业银行	abc	80
 ABCD	abcd	100
 abcd	abcd	90
+A.\nB.\nC.\nD	abcd	80	多行
 节能	abce	100
 ABCDEFG	abcg	100
 abcdefg	abcg	90
@@ -656,6 +656,7 @@ ABS	abs	100
 䕖	abtp	5
 蒸箱	abts	100
 蕯	abts	5
+萨	abu	110
 芨	abu	100
 节减	abud	100
 节前	abue	100
@@ -4827,7 +4828,6 @@ A4纸	alx	100
 世界主义	alyy	100
 英	am	100
 黄	am	90
-恐	amy	110
 🟨	am	5
 🟡	am	5
 蒲公英	ama	100
@@ -5258,6 +5258,7 @@ AMOLED屏	amon	100
 黄绿	amxv	100
 共同纲领	amxw	100
 英音	amxy	100
+恐	amy	110
 巩	amy	100
 芃	amy	90
 七分熟	amyb	100
@@ -5827,6 +5828,7 @@ A座	aow	100
 工业设计	aoyy	100
 劳	ap	100
 芳	ap	90
+东方	ap	80	常用
 Apache	apa	100
 劳工	apaa	100
 莞式	apaa	90
@@ -11443,7 +11445,6 @@ B超	bkv	90
 陡变	bkyo	100
 随口说说	bkyy	100
 际	bl	100
-阵	blg	100
 孟	bl	90
 阵式	bla	100
 阵式	blaa	100
@@ -11481,8 +11482,9 @@ blingbling的	blbr	100
 🌦	blfg	5
 阿里云大学	blfi	100
 阵雪	blfv	100
-阼	blg	80
+阵	blg	100
 取回来	blg	90
+阼	blg	80
 阵形	blga	100
 阵型	blga	90
 䧃	blgg	5
@@ -12163,6 +12165,7 @@ boolean	boo	90
 Bootstrap	boo	80
 Boot Camp	booc	100
 book	book	100
+\documentclass[hm,ebooktitle]{gzgbook}\n\title{标题}\n\author{aniu}\n\date{\today}\n\begin{document}\n\cover\n\n\end{document}	book	90	多行
 Bool	bool	100
 Boolean	bool	90
 boolean	bool	80
@@ -15663,6 +15666,7 @@ CEO	ceo	90
 通话	cey	100
 通州	cey	90
 台胞证	cey	80
+通胀率	cey	70	经济
 通译	ceyc	100
 能言	ceyd	100
 通读	ceyf	100
@@ -16495,6 +16499,7 @@ CIO	cio	90
 鱼水之欢	cipc	100
 鱼水之情	cipn	100
 观光客	cipo	100
+CIPS	cips	100	经济
 鱼水之交	cipu	100
 对没错	ciq	100
 台湾岛	ciq	90
@@ -20983,7 +20988,6 @@ DC	dcl	90
 雄文	dcyy	100
 䂘	dcyy	5
 套	dd	100
-厌	ddi	110
 硕	dd	80
 而在	dd	70
 大碗茶	dda	100
@@ -21257,6 +21261,7 @@ DC	dcl	90
 大眼	ddhv	100
 大些	ddhx	100
 磩	ddhy	5
+厌	ddi	110
 三克油	ddi	90
 大江	ddia	100
 大漠	ddia	90
@@ -21653,6 +21658,7 @@ DDR4	ddrl	80
 套装	dduf	100
 大半	dduf	90
 三百六十行，行行出状元	dduf	80
+大壮	dduf	70	文化
 三百六十行行行出状元	dduf	70
 大病	ddug	100
 厌蠢症	ddug	90
@@ -21806,6 +21812,7 @@ DDR4	ddrl	80
 套话	ddyt	90
 大郎	ddyv	100
 存在论	ddyw	100
+大畜	ddyx	100	文化
 存在主义	ddyy	100
 夶	ddyy	5
 㹜	ddyy	5
@@ -22849,6 +22856,7 @@ Desktop	desp	100
 感到骄傲	dgcw	100
 而不能说	dgcy	100
 在不在	dgd	100
+碰一碰	dgd	95	常用
 大理石	dgd	90
 大五码	dgd	80
 爽不爽	dgd	70
@@ -23513,7 +23521,6 @@ V587	dgfe	90
 砡	dgyy	5
 破	dh	90
 存	dh	80
-夏	dht	110
 戛	dha	100
 三点式	dha	90
 DHA	dha	80
@@ -23868,6 +23875,7 @@ DHCP	dhcp	100
 慧根	dhsv	100
 存根	dhsv	90
 唇齿相依	dhsw	100
+夏	dht	110
 夏季	dht	100
 奇行种	dht	90
 夏季	dhtb	100
@@ -26322,8 +26330,8 @@ DNS服务器	dnsk	100
 盛产	dnut	100
 成道	dnut	90	个人
 成立	dnuu	100
-尢	dnv	100
 尤	dnv	110
+尢	dnv	100
 盛怒	dnvc	100
 尤如	dnvk	100
 成婚	dnvq	100
@@ -27996,7 +28004,6 @@ siliconflow	dsif	90
 䃆	dsyy	5
 帮	dt	100
 故	dt	90
-寿	dtf	100
 大番薯	dta	100
 三等功	dta	90
 帮工	dtaa	100
@@ -28068,6 +28075,7 @@ siliconflow	dsif	90
 帮腔	dtep	100
 春秋航空	dtep	90
 大长腿	dtev	100
+寿	dtf	100
 故地	dtfb	100
 帮教	dtfb	90
 故去	dtfc	100
@@ -28850,7 +28858,6 @@ Dvorak	dvok	100
 原始文件	dvyw	100
 硍	dvyy	5
 春	dw	100
-仄	dwi	80
 秦	dw	80
 而你	dw	70
 成华区	dwa	100
@@ -29027,6 +29034,7 @@ Dvorak	dvok	100
 大众点评	dwhy	100
 泰	dwi	100
 大会堂	dwi	90
+仄	dwi	80
 春江	dwia	100
 秦池	dwib	100
 秦汉	dwic	100
@@ -35423,7 +35431,6 @@ ETC	etc	100
 腹议	etyy	100
 具	eu	100
 脱	eu	90
-腾	euc	110
 膝关节	eua	100
 肘关节	eua	90
 气门芯	eua	80
@@ -35460,6 +35467,7 @@ ETC	etc	100
 脱了	eubn	100
 腃	eubn	5
 脱险	eubw	100
+腾	euc	110
 胖头鱼	euc	100
 䝌	eucc	5
 䲢	eucg	5
@@ -39852,6 +39860,7 @@ F盘	fel	90
 二零	fgfw	100
 二老	fgfx	100
 十一	fgg	100
+十五五	fgg	95	政治
 过两天	fgg	90
 2G	fgg	80
 二致	fggc	100
@@ -40916,6 +40925,7 @@ Fiil耳机	fiis	90
 救济	fiiy	100
 颠沛流离	fiiy	90
 南泥湾	fiiy	80
+未济	fiiy	70	文化
 直流电	fij	100
 求贤	fijc	100
 未明	fije	100
@@ -42047,6 +42057,7 @@ Flash Player	flap	90
 鼓足勇气	flce	100
 增能	flce	90
 露台	flck	100
+二轨对话	flcy	100	政治
 雷达	fld	100
 去里面	fld	90
 十四大	fld	80
@@ -43809,6 +43820,7 @@ FPGA	fpga	100
 过江	fpia	100
 地方法院	fpib	100
 过审小王子	fpib	90
+堰塞湖	fpid	100	自然
 专家学者	fpif	100
 索法	fpif	90
 南方小土豆	fpig	100
@@ -45114,6 +45126,7 @@ freestyle	free	70
 堆积	frtk	100
 二手笔记本	frts	100
 堆笑	frtt	100
+直接税	frtu	100	经济
 无所适从	frtw	100
 直播间	fru	100
 零售商	fru	90
@@ -50008,6 +50021,7 @@ Genius Bar	genr	100
 表格	geso	100
 青楼	geso	90
 不胜其烦	geso	80
+|||\n|:-:|:-:|\n|||	geso	70	多行
 两受其害	gesp	100
 青木	gess	100
 一盘棋	gess	90
@@ -54601,7 +54615,6 @@ GKD	gkd	100
 吞吐率	gkyx	70
 理	gl	100
 副	gl	90
-画	glb	110
 🎨	gl	5
 🖌	gl	5
 🖍	gl	5
@@ -54618,6 +54631,7 @@ Glance	glan	100
 画苑	glaq	100
 画匠	glar	100
 副攻	glat	100
+画	glb	110
 不足取	glb	100
 王思聪	glb	90
 亚足联	glb	80
@@ -55128,6 +55142,7 @@ Gay里Gay气	glge	90
 两	gm	100
 现	gm	90
 再	gm	80
+不同	gm	70	常用
 不由	gm	70
 Gmail	gma	100
 一朵花	gma	90
@@ -61523,7 +61538,10 @@ H区	har	90
 眍	har	80
 瞒报	harb	100
 矆	harc	5
+HarmonyOS 6	harm	120	个人
+HarmonyOS 5	harm	110	个人
 HarmonyOS	harm	100
+HarmonyOS NEXT	harm	80	个人
 黑莓手机	hars	70
 眍	hary	100
 餀	hary	5
@@ -65399,6 +65417,7 @@ Hello World	hlwd	100
 旧情复燃	hnto	100
 步履稳健	hntw	100
 此情况	hnu	100
+虎尾兰	hnuf	100	植物
 鼎新	hnui	100
 此情况	hnuk	100
 身怀六甲	hnul	100
@@ -65507,6 +65526,7 @@ Happy New Year	hny	100
 墨	hof	100
 黠	hof	90
 黩	hof	80
+卢麒元	hof	70	人名
 行为规范	hofa	100
 黑云	hofc	100
 行业动态	hofd	100
@@ -65666,6 +65686,7 @@ HoneyView	hone	90
 🖤	honi	5
 行为习惯	honn	100
 䵝	honn	5
+Honor V30 Pro	hono	100	个人
 墨翟	honr	100
 黑屏	honu	100
 黑飞	honu	90
@@ -69647,7 +69668,6 @@ iBooks	ibos	100
 学良	ibyv	100
 学文	ibyy	100
 汉	ic	100
-治	ick	110
 泽	ic	80
 泾	ica	100
 小case	ica	90
@@ -69758,6 +69778,7 @@ iBooks	ibos	100
 澛	icjg	5
 流通量	icjl	100
 汉显	icjo	100
+治	ick	110
 涌起	ick	100
 汉中	ickh	100
 汉口	ickk	100
@@ -71450,8 +71471,8 @@ IES灯光	iesi	100
 尘缘	ifx	100
 潮红	ifxa	100
 法经	ifxc	100
-法线	ifxg	90
 测地线	ifxg	100	物理
+法线	ifxg	90
 法旨	ifxj	100
 法纪	ifxn	100
 泪雨纷飞	ifxn	90
@@ -72141,6 +72162,7 @@ IGMP	igmp	100
 小块	ihfn	90
 法律规定	ihfp	100
 滤过	ihfp	90
+小过	ihfp	80	文化
 渺远	ihfq	100
 举目无亲	ihfu	100
 小雪	ihfv	100
@@ -73966,8 +73988,8 @@ IGMP	igmp	100
 兴师问罪	ijul	100
 没时间解释了，快上车	ijul	90
 温疫	ijum	100
-滥交	ijur	100
 光电效应	ijuo	100	物理
+滥交	ijur	100
 漫道	ijut	100
 蛍	ijuu	5
 湿冷	ijuw	100
@@ -76495,6 +76517,7 @@ iPod Touch	ipot	90
 洋钱	ipqg	100
 游乐	ipqi	100
 浓烈	ipqj	100
+沈逸	ipqk	100	人名
 活字印刷	ipqn	100
 涉案金额	ipqp	100
 活字印刷术	ipqs	100
@@ -80932,8 +80955,8 @@ Java	java	100
 电子地图	jbfl	100
 最远	jbfq	100
 师出无名	jbfq	90
-最老	jbfx	100
 量子场	jbfv	100	物理
+最老	jbfx	100
 最坑	jbfy	100
 电子琴	jbg	100
 冒出来	jbg	90
@@ -81791,6 +81814,7 @@ JDK	jdk	100
 是用来	jego	90
 明珠	jegr	100
 明末	jegs	100
+明夷	jegx	100	文化
 琞	jegy	5
 电脑桌	jeh	100
 是有点	jeh	90
@@ -82862,6 +82886,7 @@ JetBrains	jetb	100
 曥	jhll	5
 蠦	jhll	5
 申办	jhlm	100
+畅连	jhlp	100	个人
 早鸭	jhlq	100
 朄	jhls	5
 师徒四人	jhlw	100
@@ -86808,6 +86833,7 @@ JVM	jvm	100
 非独立组网	jvum	70
 照准	jvur	100
 归巢	jvv	100
+归妹	jvvf	100	文化
 归巢	jvvl	100
 晒娃狂魔	jvvo	100
 昭君	jvvt	100
@@ -90084,8 +90110,9 @@ kg	kg	70
 唔该	kgyy	90
 唯理主义	kgyy	80
 嘴	kh	100
-患	khn	100
+呆	kh	90
 吕	kh	80
+哪些	kh	70	常用
 🫦	kh	5
 👄	kh	5
 中医	kha	100
@@ -90180,6 +90207,7 @@ kg	kg	70
 犑	khdy	5
 啃	khe	100
 噱	khe	90
+中孚	kheb	100	文化
 患有	kheg	100
 㘌	khej	5
 中盘	khel	100
@@ -90380,7 +90408,7 @@ kg	kg	70
 中风	khmr	100
 呆账	khmt	100
 中分	khmv	100
-呆	kh	90
+患	khn	100
 听得懂	khn	90
 特征性	khn	80
 吅	khn	70
@@ -92507,8 +92535,8 @@ KMSpico	kms	70
 遗忘	kmyn	100
 遗迹	kmyo	100
 牡丹亭	kmyp	100
-贵州	kmyt	100
 吊诡	kmyq	100
+贵州	kmyt	100
 遗诏	kmyv	100
 中央文件	kmyw	100
 㕨	kmyy	5
@@ -93580,8 +93608,7 @@ KPI	kpi	100
 唕	krfh	5
 䞺	krfh	5
 听者	krfj	100
-赵雷	krfl	100
-走投无路	krfl	90
+走投无路	krfl	100
 听声	krfn	100
 赵赫	krfo	100
 听过	krfp	100
@@ -94451,6 +94478,7 @@ K歌红包	ksxq	100
 呼吁	ktkf	100
 呼哧	ktkf	90
 川味	ktkf	80
+噬嗑	ktkf	70	文化
 呂	ktkf	5
 呼号	ktkg	100
 啝	ktkg	5
@@ -97302,8 +97330,8 @@ Leopold	leop	100
 踩背	leux	100
 蹈	lev	100
 四肢发达	levd	100
-踩奶	leve	100
 level	leve	110	英文
+踩奶	leve	100
 轁	levg	5
 四肢发达，头脑简单	levu	100
 四肢发达头脑简单	levu	90
@@ -97437,6 +97465,7 @@ level	leve	110	英文
 踏雪无痕	lffu	100
 转场	lffv	100
 围场	lffv	90
+跨境支付	lffw	100	经济
 畤	lffy	5
 跱	lffy	5
 转过来	lfg	100
@@ -100011,10 +100040,10 @@ Live Photo	livp	100
 男科	lltu	100
 轻车简从	lltw	100
 䠅	llty	5
-逻辑门	llu	100
 逻辑卷	llu	110	计算机
-田头	llud	100
+逻辑门	llu	100
 逻辑卷	llub	100	计算机
+田头	llud	100
 男装	lluf	100
 👕	lluf	5
 田间	lluj	100
@@ -102182,8 +102211,8 @@ lsp了	lspb	100
 罗生门	lsuy	90
 果奶	lsv	100
 果奶	lsve	100
-思想独立	lsvu	100
 果如	lsvk	100
+思想独立	lsvu	100
 跳楼价	lsw	100
 圆柱体	lsw	90
 轻松使用	lswe	100
@@ -102568,6 +102597,7 @@ LTPS	ltps	100
 😢	ltw	5
 输入体验	ltwc	100
 怎么做	ltwd	100
+怎么使用	ltwe	100	常用
 图传	ltwf	100
 图片仅供参考	ltwf	90
 怎么会	ltwf	80
@@ -103768,6 +103798,7 @@ mac	mac	80
 MacBook Air	maca	100
 MacBook	macb	100
 山东鲁能	macc	100
+MACD	macd	100	经济
 MAC地址	macf	100
 Macintosh	mach	100
 macintosh	mach	90
@@ -103976,6 +104007,8 @@ Matlab	mat	80
 Matlab	matb	90
 典籍	matd	100
 Matebook	mate	100
+MatePad	mate	95	个人
+MatePad 11.5	mate	93	个人
 MathType	mate	90
 公共管理	matg	100
 MathType	math	100
@@ -104989,11 +105022,13 @@ metro	metr	100
 䯗	mexf	5
 公有经济	mexi	100
 骸	mey	100
+市盈率	mey	95	经济
 八股文	mey	90
 髇	meyl	5
 骯	meym	5
 岁月变迁	meyt	70
 䯖	meyv	5
+市盈率	meyx	100	经济
 八股文	meyy	100
 峬	meyy	5
 周	mf	100
@@ -106946,6 +106981,7 @@ mlgb	mlgb	90
 曲里拐弯	mlry	100
 贫困生	mls	100
 公示期	mls	90
+凯恩斯	mls	80	经济
 公示期	mlse	100
 赠票	mlsi	100
 㸘	mlsj	5
@@ -108138,7 +108174,6 @@ MPV	mpv	100
 分裂主义	mqyy	90
 风	mr	100
 刚	mr	90
-网	mrr	110
 💨	mr	5
 🕸	mr	5
 刚巧	mra	100
@@ -108329,6 +108364,7 @@ MPV	mpv	100
 网吧	mrkc	100
 风顺	mrkd	100
 风味	mrkf	100
+网号	mrkg	110	社会
 刚走	mrkg	100
 风中	mrkh	100
 网口	mrkk	100
@@ -108453,6 +108489,7 @@ MPV	mpv	100
 风铃	mrqw	100
 🎐	mrqw	5
 风镜	mrqx	100
+网	mrr	110
 几年后	mrr	100
 网报	mrrb	100
 刚把	mrrc	100
@@ -108590,6 +108627,7 @@ MPV	mpv	100
 🧥	mrye	5
 风评	mryg	100
 网评	mryg	90
+网证	mryg	80	社会
 网盲	mryh	100
 网课	mryl	100
 网讯	mryn	100
@@ -109556,6 +109594,7 @@ Music	musi	100
 分辨率	muy	100
 罔	muy	90
 风凉话	muy	80
+市净率	muy	70	经济
 同头课	muyl	100
 颁奖词	muyn	100
 公道话	muyt	100
@@ -110411,6 +110450,7 @@ Music	musi	100
 欲练此功，必先自宫	mxhp	100
 财经频道	mxhu	100
 巓	mxhu	5
+网络身份证	mxhy	100	社会
 幽深	mxi	100
 赋比兴	mxi	90
 财经学院	mxib	100
@@ -112825,7 +112865,6 @@ NGP	ngp	100
 悔不该	ngyy	90
 蛋	nh	100
 眉	nh	90
-疏	nhy	110
 🥚	nh	5
 戕	nha	100
 疏散	nhae	100
@@ -113137,6 +113176,7 @@ NGP	ngp	100
 㞛	nhxj	5
 履约	nhxq	100
 屏占比	nhxx	100
+疏	nhy	110
 懒得说	nhy	100
 忄	nhy	90
 疏离	nhyb	100
@@ -114264,6 +114304,7 @@ nm离谱	nmyy	100
 快	nn	100
 忆	nn	90
 己	nn	80
+尸	nn	70
 居民区	nna	100
 巽	nna	90
 懒懒散散	nnaa	100
@@ -114382,7 +114423,6 @@ nm离谱	nmyy	100
 懵懂无知	nnft	100
 书场	nnfv	100
 已老	nnfx	100
-尸	nn	70
 慢慢来	nng	90
 コ	nng	80
 巳	nng	70
@@ -115028,6 +115068,7 @@ Notability	noty	100
 慷	nov	100
 慵	nov	90
 屡	nov	80
+Nova 13	nova	110	个人
 Nova	nova	100
 屡犯	novb	100
 慵	nove	100
@@ -116031,7 +116072,7 @@ NTSC色域	ntsf	100
 改良	ntyv	100
 攺	ntyy	5
 飞	nu	100
-买	nud	100
+习	nu	90
 悦	nu	80
 ✈	nu	5
 🚁	nu	5
@@ -116075,7 +116116,7 @@ NTSC色域	ntsf	100
 心痒难挠	nucr	100
 心痒难禁	nucs	100
 飞鱼	nuct	100
-习	nu	90
+买	nud	100
 层次感	nud	90
 飞碟	nuda	100
 🛸	nuda	5
@@ -117382,8 +117423,9 @@ no zuo no die why you try	nxnt	100
 席	oa	90
 烧	oa	80
 OA	oa	70
-℃	oa	5
-℉	oa	5
+°	oa	10	符号
+℃	oa	10
+℉	oa	10
 糖葫芦	oaa	100
 爆菊花	oaa	90
 麻花藤	oaa	80
@@ -123918,6 +123960,7 @@ Outlook	outl	100
 煅	owm	80
 社会分工	owma	100
 㷍	owma	5
+社会风气	owme	110	社会
 祖传贴膜	owme	100
 社会公德	owmh	100
 精华帖	owmh	90
@@ -125457,7 +125500,6 @@ PC端	pcu	100
 客观主义	pcyy	100
 实验主义	pcyy	90
 害	pd	100
-寄	pds	110
 割	pd	80
 🈹	pd	5
 害苦	pda	100
@@ -125739,6 +125781,7 @@ P3广色域	pdof	100
 割手	pdrt	70
 割接	pdru	100
 䘠	pdry	5
+寄	pds	110
 旖	pds	100
 宏碁	pdsd	100
 宏基	pdsf	100
@@ -126547,7 +126590,6 @@ PE	pel	90
 赛过诸葛亮	pfyy	90
 定	pg	100
 写	pg	90
-宝	pgy	110
 之一	pg	70
 ✍	pg	5
 ✏	pg	5
@@ -126923,6 +126965,7 @@ PgDn	pgdn	90
 写本	pgsg	100
 定西	pgsg	90
 实不相瞒	pgsh	100
+定档	pgsi	110	个人
 宽严相济	pgsi	100
 写歌	pgsk	100
 定可	pgsk	90
@@ -127040,6 +127083,7 @@ PgUp	pgup	100
 富比	pgxx	100
 宣统	pgxy	100
 定音	pgxy	90
+宝	pgy	110
 差不离	pgy	100
 差不离	pgyb	100
 宣言	pgyd	100
@@ -130560,7 +130604,6 @@ PS痕迹	psuy	100
 䘤	psyy	5
 放	pt	100
 族	pt	90
-穿透力	ptl	90
 🪟	pt	5
 宅	pta	100
 方程式	pta	90
@@ -130701,6 +130744,7 @@ PS痕迹	psuy	100
 放牧	ptkt	100
 放哪	ptkv	100
 窗	ptl	100
+穿透力	ptl	90
 安委办	ptl	80
 宋冬野	ptla	100
 放置	ptlf	100
@@ -130902,7 +130946,6 @@ PTSD	ptsd	100
 被和谐	ptyx	90
 䍩	ptyy	5
 实	pu	100
-善	puk	110
 寒	pu	80
 PUA	pua	100
 善茬	puad	100
@@ -131030,6 +131073,7 @@ P站	puh	100
 寒蝉	puju	90
 定妆照	pujv	100
 实景	pujy	100
+善	puk	110
 守门员	puk	100
 农产品	puk	90
 家门口	puk	80
@@ -131244,7 +131288,6 @@ PageUp	pul	80
 完美主义	puyy	100
 安	pv	100
 初	pv	90
-案	pvs	110
 安葬	pva	100
 鞌	pvaf	5
 襑	pvaf	5
@@ -131470,6 +131513,7 @@ PVC	pvc	90
 初探	pvrp	90
 安插	pvrt	100
 安拉	pvru	100
+案	pvs	110
 初期	pvs	100
 冠姓权	pvs	90
 究极	pvsb	100
@@ -131678,6 +131722,7 @@ PVC	pvc	90
 放你一马	pwgc	90
 完全正确	pwgd	100
 安倍晋三	pwgd	90
+安全事故	pwgd	90	社会
 䙆	pwgd	5
 完全不用	pwge	100
 定位球	pwgf	100
@@ -132243,8 +132288,8 @@ PyCharm	pyc	90
 🐏	pymw	5
 🐑	pymw	5
 方丹	pymy	100
-辶	pyn	100
 审计局	pyn	110
+辶	pyn	100
 衤	pyn	90
 冖	pyn	80
 穴居	pynd	100
@@ -139939,9 +139984,9 @@ QWERTZ键盘	qwee	90
 我们有	qweg	100
 鍮	qweh	5
 锻造	qwek	100
-欠赞	qweq	100
 Qwen3	qwen	100	AI
 Qwen	qwen	90	AI
+欠赞	qweq	100
 QWERTY	qwer	100
 QWERTZ	qwer	90
 殄	qwet	100
@@ -141753,7 +141798,6 @@ rar	rar	80
 投降主义	rbyy	90
 扱	rbyy	5
 反	rc	100
-抬	rck	110
 拟	rc	80
 拚	rca	100
 返工	rcaa	100
@@ -141941,6 +141985,7 @@ rar	rar	80
 捅马蜂窝	rcjp	100
 返归	rcjv	100
 掻	rcjy	5
+抬	rck	110
 所以呢	rck	100
 杀马特	rck	90
 挨骂	rckc	100
@@ -142039,8 +142084,8 @@ rar	rar	80
 抬着	rcph	90
 反被	rcph	80
 擂台赛	rcpm	100
-反之	rcpp	100
 质能守恒	rcpn	100	物理
+反之	rcpp	100
 反放	rcpt	100
 挨宰	rcpu	100
 把它	rcpx	100
@@ -145054,7 +145099,6 @@ Rh血型	rhtg	70
 年代	rhw	100
 年华	rhw	90
 扫微信	rhw	80
-接待人员	rhwk	100
 年代	rhwa	100
 牛仔	rhwb	100
 🤠	rhwb	5
@@ -145070,6 +145114,7 @@ Rh血型	rhtg	70
 看个	rhwh	100
 摐	rhwh	5
 看剑	rhwi	100
+接待人员	rhwk	100
 看作	rhwl	100
 年份	rhwm	100
 年龄段	rhwm	90
@@ -147928,7 +147973,7 @@ root	root	100
 制度设计	royy	90
 㧑	royy	5
 近	rp	100
-按	rpv	110
+挥	rp	90
 控	rpa	100
 搓	rpa	90
 的方式	rpa	80
@@ -148171,7 +148216,6 @@ root	root	100
 拍案叫绝	rpkx	100
 手写速记	rpky	100
 捻军起义	rpky	90
-挥	rp	90
 看着办	rpl	90
 打字界	rpl	80
 近距	rpla	100
@@ -148413,6 +148457,7 @@ root	root	100
 擦背	rpux	90
 打字效率	rpuy	100
 㩃	rpuy	5
+按	rpv	110
 打字群	rpv	100
 反差婊	rpv	90
 皇额娘	rpv	80
@@ -151936,7 +151981,6 @@ Ruby	ruby	100
 投资率	ruyx	100
 热门评论	ruyy	100
 热	rv	100
-招	rvk	110
 扬	rv	80
 把她	rv	70
 🥵	rv	5
@@ -152179,6 +152223,7 @@ Ruby	ruby	100
 殷鉴	rvjt	90
 打发时间	rvju	100
 执照	rvjv	100
+招	rvk	110
 拔刀吧	rvk	100
 捕鼠器	rvk	90
 🪤	rvk	5
@@ -152403,6 +152448,7 @@ Ruby	ruby	100
 热管	rvtp	100
 挥刀自宫	rvtp	90
 挪移	rvtq	100
+招笑	rvtt	100	日常
 㧅	rvtt	5
 热乎	rvtu	100
 执委	rvtv	100
@@ -152994,6 +153040,7 @@ Ruby	ruby	100
 失道	rwut	100
 抢道	rwut	90
 抢券	rwuv	100
+集合竞价	rwuw	100	经济
 扵	rwuy	5
 操你妈	rwv	100
 操他妈	rwv	90
@@ -153780,8 +153827,8 @@ Ruby	ruby	100
 打文章	ryuj	100
 挤兑	ryuk	100
 抗癌	ryuk	90
-抗疫	ryum	100
 撤单	ryul	100	经济
+抗疫	ryum	100
 反文旁	ryup	100
 折文旁	ryup	90
 斥资	ryuq	100
@@ -154017,6 +154064,7 @@ Safari浏览器	safk	100
 酣畅	sajh	100
 横七竖八	sajm	100
 模电	sajn	100
+梅花易数	sajo	100	文化
 桃花影落飞神键	sajq	100
 桃花影落飞神剑，碧海潮生按玉箫	sajt	100
 椻	sajv	5
@@ -158872,7 +158920,6 @@ SMTP	smtp	100
 杋	smyy	5
 甚	sn	100
 配	sn	90
-楚	snh	110
 戡	sna	100
 林忆莲	sna	90
 配菜	snae	100
@@ -158958,6 +159005,7 @@ SMTP	smtp	100
 配平	sngu	100
 核心理念	sngw	100
 焚尸灭迹	sngy	100
+楚	snh	110
 楣	snh	100
 醑	snh	90
 椵	snhc	5
@@ -160544,6 +160592,7 @@ srt	srt	90
 想想	ss	70
 想要	ss	60
 要想	ss	50
+§	ss	40	符号
 基本功	ssa	100
 植树节	ssa	90
 柠檬黄	ssa	80
@@ -161197,6 +161246,7 @@ Static	stat	90
 生硬	stdg	100
 䣶	stdg	5
 生存	stdh	100
+相向而行	stdh	90	政治
 椥	stdk	5
 橋	stdl	5
 生而	stdm	100
@@ -163811,6 +163861,7 @@ Ta们	tawu	90
 䈢	tcks	5
 私车	tcl	100
 TCL科技	tcl	90	个人
+智能驾驶	tclc	100	科技
 私车	tclg	100
 智能输入法	tcli	100
 私力	tcln	100
@@ -163916,6 +163967,7 @@ TCP/IP协议	tcpy	90
 🇱🇧	tcvk	5
 私人	tcw	100
 智能化	tcw	90
+智能体	tcw	80	科技
 私会	tcwf	100
 私企	tcwh	100
 繁难偏怪	tcwn	100
@@ -164273,6 +164325,7 @@ TD-LTE	tdle	100
 知罪	tdlj	100
 乱踢	tdlj	90
 矰	tdlj	5
+智驾	tdlk	110	科技
 乱回	tdlk	100
 刮蹭	tdll	100
 勪	tdll	5
@@ -167600,8 +167653,8 @@ tips	tips	100
 🍐	tjs	5
 篮框	tjsa	100
 香醋	tjsa	90
-梨树	tjsc	100
 复权	tjsc	110	经济
+梨树	tjsc	100
 香椿	tjsd	100
 每星期	tjse	100
 长时期	tjse	90
@@ -167987,6 +168040,7 @@ tips	tips	100
 和纸	tkxq	90
 积弱	tkxu	100
 自叹弗如	tkxv	100
+和统	tkxy	110	政治
 和弦	tkxy	100
 和谐	tky	100
 和衣	tkye	100
@@ -168340,9 +168394,9 @@ T0级别	tlxk	100
 䘑	tlyi	5
 血迹	tlyo	100
 香车豪宅	tlyp	100
-奥	tm	80
 向	tm	100
 策	tm	90
+奥	tm	80
 TM	tm	70
 ™	tm	60	常用
 自由式	tma	100
@@ -169518,6 +169572,7 @@ T字路口	tplk	100
 乏困	tpls	100
 私家车位	tplw	100
 乏累	tplx	100
+稳定币	tpm	110	经济
 延安市	tpm	100
 香农公式	tpma	100
 逢赌	tpmf	100
@@ -174569,9 +174624,10 @@ U盘	uel	100
 总支出	ufbm	90
 六十出头	ufbu	100
 逆境出强人	ufbw	100
-斗鱼	ufc	100
+新动能	ufc	100	经济
 阖	ufc	90
 北朝鲜	ufc	80
+斗鱼	ufc	70
 㾡	ufcb	5
 斗勇	ufce	100
 交替通行	ufch	100
@@ -177959,6 +178015,7 @@ UI设计	uiyy	100
 端游	umip	90
 商海	umit	100
 卷帙浩繁	umit	90
+商誉	umiu	100	经济
 商汤	umiv	100
 商洽	umiw	100
 疯涨	umix	100
@@ -179962,8 +180019,8 @@ USB线	usbx	100
 闲适	ustd	100
 闲笔	uste	100
 尊重	ustg	100
-单机版	ustn	100
 资本利得	usth	100	经济
+单机版	ustn	100
 减配版	ustn	90
 闲愁	usto	100
 闲篇	usto	90
@@ -181106,6 +181163,8 @@ icesofts.com	uuli	70
 甉	uvoy	5
 兼容	uvp	100
 妆容	uvp	90
+剪刀差	uvp	80	经济
+剪刀差	uvpa	110	经济
 兼差	uvpa	100
 兼施	uvpb	100
 㓎	uvpc	5
@@ -181612,7 +181671,6 @@ UWP应用	uwpe	100
 閄	uwyy	5
 北	ux	100
 背	ux	90
-弟	uxh	110
 冀	uxa	100
 冰红茶	uxa	90
 冰绿茶	uxa	80
@@ -181720,6 +181778,7 @@ UWP应用	uwpe	100
 背夹	uxgu	100
 北平	uxgu	90
 总结与展望	uxgy	100
+弟	uxh	110
 背上	uxh	100
 凝眸	uxhc	100
 北街	uxhf	100
@@ -182603,6 +182662,7 @@ VA面板	vads	90
 毁誉	vaiu	100
 群荣誉	vaiu	90
 既当	vaiv	100
+既济	vaiy	100	文化
 猎	vaj	100
 暨	vaj	90
 嫫	vaj	80
@@ -183167,6 +183227,7 @@ VA屏	vanu	100
 即指	vbrx	100
 好搞	vbry	100
 猴子捞月亮	vbry	90
+即可	vbs	110	常用
 婀	vbs	100
 好极	vbsb	100
 好酸	vbsc	100
@@ -188081,6 +188142,7 @@ vSphere	vsp	80
 猉	vsyy	5
 群	vt	100
 君	vt	90
+那么	vt	80	常用
 9⃣	vt	5
 👥	vt	5
 那种东西	vta	100
@@ -189874,7 +189936,6 @@ V领	vwp	90
 🧑	w	5
 👤	w	5
 代	wa	100
-借	waj	110
 供	wa	80
 代工	waa	100
 代工	waaa	100
@@ -190014,6 +190075,7 @@ V领	vwp	90
 人工流产	waiu	100
 人工泛音	waix	100
 㑈	waiy	5
+借	waj	110
 偃	waj	100
 㒖	wajc	5
 华东师大	wajd	100
@@ -190090,6 +190152,7 @@ wampserver	wamp	90
 代买	wanu	100
 代为	wao	100
 供煤	waoa	100
+修昔底德陷阱	waob	100	经济
 代序	waoc	100
 何苦为难	waoc	90
 供精	waog	100
@@ -192063,7 +192126,7 @@ weibo.com	wei	100
 会签	wftw	100
 传入	wfty	100
 舍入	wfty	90
-全过程民主	wfty	80
+全过程人民民主	wfty	80	政治
 传送	wfu	100
 货运站	wfu	90
 传闻	wfub	100
@@ -192473,6 +192536,7 @@ weibo.com	wei	100
 从来没	wgi	100
 任天堂	wgi	90
 伦理学	wgi	80
+伓	wgi	5
 倒满	wgia	100
 倒灌	wgia	90
 全满	wgia	80
@@ -192509,7 +192573,7 @@ weibo.com	wei	100
 便溺	wgix	100
 倒流	wgiy	100
 修正液	wgiy	90
-伓	wgiy	5
+全球治理倡议	wgiy	70	政治
 他不是	wgj	100
 你不是	wgj	90
 倒不是	wgj	80
@@ -192831,6 +192895,7 @@ weibo.com	wei	100
 你不要这样	wgss	100
 你还要我怎样	wgss	90
 人不可貌相	wgss	80
+人不要脸，天下无敌	wgst	100	日常
 全校	wgsu	100
 便要	wgsv	100
 倒要	wgsv	90
@@ -195287,8 +195352,8 @@ Windows Media Player	wmp	80
 追	wn	90
 亿	wn	80
 人民	wna	100
-追悔莫及	wnab	100
-人民医院	wnab	90
+人民医院	wnab	100
+追悔莫及	wnab	90
 假若	wnad	100
 人情世故	wnad	90
 人民英雄	wnad	80
@@ -196127,7 +196192,6 @@ wow awesome	wowe	100
 华为认证	woyy	100
 侎	woyy	5
 令	wp	100
-含	wpk	110
 贪	wp	80
 含羞草	wpa	100
 倥	wpa	90
@@ -196322,6 +196386,7 @@ wow awesome	wowe	100
 仿电	wpjn	100
 今晚	wpjq	100
 仿照	wpjv	100
+含	wpk	110
 颔	wpk	100
 侦察员	wpk	90
 领走	wpkg	100
@@ -197044,8 +197109,8 @@ WPS Office	wpso	100
 僧多粥少	wqxi	100
 低幼	wqxl	100
 保留意见	wqxm	100
-合金弹头	wqxu	100
 低维	wqxr	100	物理
+合金弹头	wqxu	100
 仰韶	wqxv	100
 你给	wqxw	100
 似然比	wqxx	100
@@ -198199,6 +198264,7 @@ WTG	wtgl	80
 仡	wtn	70
 侨民	wtna	100
 个税改革	wtna	90
+信息壁垒	wtnc	100	社会
 侨居	wtnd	100
 合居	wtnd	90
 什么屌图都有	wtne	100
@@ -198496,7 +198562,6 @@ WTO	wto	100
 㪉	wtyy	5
 们	wu	100
 位	wu	90
-倍	wuk	110
 休闲区	wua	100
 人间世	wua	90
 全瓷牙	wua	80
@@ -198652,6 +198717,7 @@ WTO	wto	100
 傍晚	wujq	100
 🌆	wujq	5
 倦影	wujy	100
+倍	wuk	110
 化妆品	wuk	100
 傅立叶	wuk	90
 傅立叶	wukf	100
@@ -203407,6 +203473,7 @@ X光片	xitn	100
 经济和信息化委员会	xitw	90
 经济和信息化	xitw	80
 经济系	xitx	100
+引渡条约	xitx	95	政治
 毕淑敏	xitx	90
 䋦	xitx	5
 糸	xiu	100
@@ -203953,8 +204020,8 @@ X光片	xitn	100
 细	xl	100
 幼	xl	90
 比较	xl	80	个人
-张国荣	xla	100
 细节	xla	110
+张国荣	xla	100
 幼芽	xlaa	100
 细节	xlab	100
 细菜	xlae	100
@@ -204213,6 +204280,7 @@ xlsx	xlsx	100
 比较优势	xlwr	100
 细体	xlws	100
 幼体	xlws	90
+比较合适	xlwt	100	常用
 纯路人	xlww	100
 经办人	xlww	90
 细化	xlwx	100
@@ -205076,6 +205144,7 @@ XPS	xps	90
 竟	xq	100
 绝	xq	90
 纸	xq	80
+竟然	xq	70	常用
 🧻	xq	5
 音乐节	xqa	100
 音乐节	xqab	100
@@ -207077,7 +207146,6 @@ XXOO	xxoo	90
 组织文化	xxyw	100
 比率	xxyx	100
 音	xy	100
-统	xyc	110
 弦	xy	80
 音节	xya	100
 张文荣	xya	90
@@ -207095,6 +207163,7 @@ XXOO	xxoo	90
 音孔	xybn	100
 音障	xybu	100
 音阶	xybw	100
+统	xyc	110
 母夜叉	xyc	100
 统驭	xycc	100
 细语柔声	xycf	100
@@ -209000,7 +209069,7 @@ yeelight	yeet	100
 谣谚	yeyu	100
 谁用谁知道	yeyu	90
 读	yf	100
-诗	yff	110
+计	yf	90
 诸	yf	80
 这都	yf	70
 计划	yfa	100
@@ -209066,6 +209135,7 @@ yeelight	yeet	100
 这都有词	yfey	100
 这都有词？	yfey	90
 主动脉	yfey	80
+诗	yff	110
 诖	yff	100
 读霸	yffa	100
 讨教	yffb	100
@@ -209113,7 +209183,6 @@ yeelight	yeet	100
 永远不要嘲笑一个有梦想的人	yfgw	90
 永远不要嘲笑一个正在努力的人	yfgw	80
 永志不忘	yfgy	100
-计	yf	90
 讦	yfh	90
 这都行	yfh	80
 讨饶	yfha	100
@@ -218432,37 +218501,3 @@ O(∩_∩)O~	zxi	60
 [悠闲]	zyx	70
 "	zyy	100
 '	zyy	90
-比较合适	xlwt	100	常用
-东方	ap	80	常用
-卢麒元	hof	70	人名
-畅连	jhlp	100	个人
-虎尾兰	hnuf	100	植物
-直接税	frtu	100	经济
-§	ss	40	符号
-修昔底德陷阱	waob	100	经济
-MatePad	mate	95	个人
-MatePad 11.5	mate	93	个人
-Nova 13	nova	110	个人
-HarmonyOS 5	harm	110	个人
-HarmonyOS NEXT	harm	80	个人
-Honor V30 Pro	hono	100	个人
-剪刀差	uvp	80	经济
-剪刀差	uvpa	110	经济
-MACD	macd	100	经济
-二轨对话	flcy	100	政治
-通胀率	cey	70	经济
-市盈率	meyx	100	经济
-市盈率	mey	95	经济
-市净率	muy	70	经济
-\documentclass[hm,ebooktitle]{gzgbook}\n\title{标题}\n\author{aniu}\n\date{\today}\n\begin{document}\n\cover\n\n\end{document}	book	90	多行
-A.\nB.\nC.\nD	abcd	80	多行
-|||\n|:-:|:-:|\n|||	geso	70	多行
-集合竞价	rwuw	100	经济
-稳定币	tpm	110	经济
-CIPS	cips	100	经济
-跨境支付	lffw	100	经济
-商誉	umiu	100	经济
-定档	pgsi	110	个人
-竟然	xq	70	常用
-碰一碰	dgd	95	常用
-
