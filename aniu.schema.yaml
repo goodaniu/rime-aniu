@@ -53,6 +53,7 @@ engine:
     - table_translator
     - lua_translator@*wubi86_jidian_date_translator # 日期、时间、星期
     - history_translator@repeat_last_input # 重复上一次输入，对应下面的 repeat_last_input
+    # - table_translator@custom_phrase
   filters:
     - simplifier@tradition
 #    - lua_filter@*wubi86_jidian_single_char_first_filter # 单字优先
@@ -138,3 +139,13 @@ repeat_last_input:
   input: z
   size: 2
   initial_quality: 1
+
+# 自定义短语，需要先在translaters那里开启
+# custom_phrase:
+  # dictionary: ""
+  # user_dict: custom_phrase  # 需要手动创建 custom_phrase.txt 文件
+  # db_class: stabledb
+  # enable_completion: false # 补全提示
+  # enable_sentence: false   # 禁止造句
+  # initial_quality: -1      # 初始权重
+  # tips: "[自定义短语]"    # 貌似没用，可能没设置好

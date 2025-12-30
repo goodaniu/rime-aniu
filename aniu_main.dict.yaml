@@ -1,6 +1,6 @@
 ---
 name: aniu_main
-version: "2025春"
+version: "2025.12.14"
 init_time: "2025-02-10"
 dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
 
@@ -27,7 +27,8 @@ sort: by_weight
 或	a	100
 花	a	90
 工	a	80
-或者	a	70
+七	a	70
+柒	a	30	经济
 7⃣	a	5
 🌷	a	5
 🌸	a	5
@@ -501,6 +502,7 @@ AA制	aarm	100
 蔡英文	aayy	100
 节	ab	100
 巷	ab	80
+䷻	ab	30	文化
 节节	aba	100
 节节	abab	100
 若隐若现	abag	100
@@ -1597,6 +1599,8 @@ AE86	aemu	100
 某	af	100
 革	af	90
 著	af	80
+或者	af	70
+䷰	af	30	文化
 劳动节	afa	100
 东城区	afa	90
 鞯	afa	80
@@ -2265,7 +2269,6 @@ After Effects	afts	100
 䩙	afyx	5
 著文	afyy	100
 共	ag	100
-七	ag	90
 戈	ag	80
 艹	ag	70
 🤬	ag	5
@@ -2778,6 +2781,7 @@ A型血	agtl	100
 臤	ahcy	5
 颐	ahd	100
 茶餐厅	ahd	90
+䷚	ahd	30	文化
 牙碜	ahdc	100
 牙套	ahdd	100
 AHDH	ahdh	100
@@ -5923,6 +5927,7 @@ Apache	apa	100
 莹	apg	100
 萱	apg	90
 苎	apg	80
+䷃	apg	30	文化
 劳形	apga	100
 劳顿	apgb	100
 苎	apgf	100
@@ -9109,6 +9114,7 @@ Are you OK？	ayok	90
 或许会	ayw	100
 萃	ayw	90
 卧谈会	ayw	80
+䷬	ayw	30	文化
 艺高人胆大	aywd	100
 或许会	aywf	100
 卧谈会	aywf	90
@@ -9879,6 +9885,7 @@ BDSM	bdsm	100
 阴	be	90
 阻	be	80
 也有	be	70
+䷐	be	30	文化
 🌥	be	5
 堕落	bea	100
 The Beatles	bea	90
@@ -10051,6 +10058,7 @@ The Beatles	beat	100
 阴损	berk	100
 随拍	berr	100
 阴爻	berr	90
+⚋	berr	20	文化
 隆胸手术	bers	100
 随手	bert	100
 阻拦	beru	100
@@ -11230,6 +11238,7 @@ biu特否	biug	100
 聪明的	bjrq	100
 限时折扣	bjrr	100
 阳爻	bjrr	90
+⚊	bjrr	20	文化
 聪明的人	bjrw	100
 聪明反被聪明误	bjry	100
 也是要	bjs	100
@@ -16990,6 +16999,7 @@ CLTC工况	cltu	100
 双边主义	clyy	100
 观	cm	100
 以内	cm	90
+䷓	cm	30	文化
 鳢	cma	100
 难分难舍	cmc	100
 难分难解	cmcq	100
@@ -18738,8 +18748,6 @@ CPU	cpu	100
 马列主义	cqyy	100
 难	cr	100
 驳	cr	90
-以后	cr	80
-对的	cr	70
 预制菜	cra	100
 难惹	crad	100
 以按劳分配为主体，多种分配方式并存	crad	90
@@ -19217,6 +19225,7 @@ Option+Shift+Command+	csol	90
 豫	csq	100
 鹜	csq	90
 鍪	csq	80
+䷏	csq	30	文化
 柔然	csqd	100
 鍪	csqf	100
 鹬	csqg	100
@@ -21124,6 +21133,7 @@ DC	dcl	90
 大脚	ddef	100
 大肚	ddef	90
 大有	ddeg	100
+䷍	ddeg	30	文化
 大胆	ddej	100
 大造	ddek	100
 大盘	ddel	100
@@ -21184,6 +21194,7 @@ DC	dcl	90
 套索	ddfp	100
 大过	ddfp	90
 套壳	ddfp	80
+䷛	ddfp	30	文化
 大元	ddfq	100
 大堆	ddfr	100
 大考	ddfs	100
@@ -21660,6 +21671,7 @@ DDR4	ddrl	80
 三百六十行，行行出状元	dduf	80
 大壮	dduf	70	文化
 三百六十行行行出状元	dduf	70
+䷡	dduf	30	文化
 大病	ddug	100
 厌蠢症	ddug	90
 三百六十五	ddug	80
@@ -21813,6 +21825,7 @@ DDR4	ddrl	80
 大郎	ddyv	100
 存在论	ddyw	100
 大畜	ddyx	100	文化
+䷙	ddyx	30	文化
 存在主义	ddyy	100
 夶	ddyy	5
 㹜	ddyy	5
@@ -22771,8 +22784,7 @@ Desktop	desp	100
 三	dg	100
 古	dg	90
 硬	dg	80
-而不	dg	70
-大一	dg	60
+叁	dg	70	经济
 3G	dg	50
 3⃣	dg	5
 研	dga	100
@@ -23721,6 +23733,7 @@ DHCP	dhcp	100
 丰	dhk	100
 砧	dhk	90
 三步走	dhk	80
+䷶	dhk	30	文化
 在吗	dhkc	100
 三步走	dhkg	100
 破口	dhkk	100
@@ -24695,6 +24708,7 @@ DJI	dji	100
 感	dk	100
 右	dk	90
 咸	dk	80
+䷞	dk	30	文化
 ↪	dk	5
 ▶	dk	5
 ➡	dk	5
@@ -26990,7 +27004,6 @@ DP接口	dprk	100
 确	dq	90
 砍	dq	80
 大多	dq	70
-而我	dq	60
 砥	dqa	100
 磔	dqa	90
 大银幕	dqa	80
@@ -27696,7 +27709,6 @@ dropbox	drox	100
 奇	ds	100
 厅	ds	90
 尤其	ds	80
-而要	ds	70
 大本营	dsa	100
 龙井茶	dsa	90
 石楠花	dsa	80
@@ -29035,6 +29047,7 @@ Dvorak	dvok	100
 泰	dwi	100
 大会堂	dwi	90
 仄	dwi	80
+䷊	dwi	30	文化
 春江	dwia	100
 秦池	dwib	100
 秦汉	dwic	100
@@ -29656,9 +29669,11 @@ DxOMark	dxom	100
 犬子	dybb	90
 🤴	dybb	5
 太阴	dybe	100
+⚏	dybe	20	文化
 戍卫	dybg	100
 太逊	dybi	100
 太阳	dybj	100
+⚌	dybj	20	文化
 ☀	dybj	5
 ⛅	dybj	5
 🌞	dybj	5
@@ -36831,6 +36846,8 @@ e充电	eyjn	90
 都	f	90
 去	f	80
 十	f	70
+🔟	f	60
+拾	f	30	经济
 域	fa	100
 戴	fa	90
 载	fa	80
@@ -37020,6 +37037,7 @@ FALSE	fals	70
 贲	fam	100
 袁世凯	fam	90
 南苏丹	fam	80
+䷕	fam	30	文化
 🇸🇸	fam	5
 霙	famd	5
 戴帽	famh	100
@@ -38110,6 +38128,9 @@ FCPX	fcpx	90
 需	fd	90
 震	fd	80
 都在	fd	70
+䷄	fd	30	文化
+䷲	fd	30	文化
+☳	fd	20	文化
 城区	fda	100
 震区	fda	90
 老古董	fda	80
@@ -39674,10 +39695,9 @@ F盘	fel	90
 二	fg	100
 干	fg	90
 士	fg	80
-都不	fg	70
+贰	fg	70	经济
 2G	fg	60
 2⃣	fg	5
-🔟	fg	5
 十七	fga	100
 南开区	fga	90
 霸王花	fga	80
@@ -39863,6 +39883,7 @@ F盘	fel	90
 十五五	fgg	95	政治
 过两天	fgg	90
 2G	fgg	80
+“十五五”规划	fgga	100	经济
 二致	fggc	100
 干到	fggc	90
 雨天	fggd	100
@@ -40485,7 +40506,6 @@ F盘	fel	90
 盐	fh	90
 坡	fh	80
 都得	fh	70
-地上	fh	60
 🧂	fh	5
 于世	fha	100
 墙上芦苇	fhaa	100
@@ -40926,6 +40946,7 @@ Fiil耳机	fiis	90
 颠沛流离	fiiy	90
 南泥湾	fiiy	80
 未济	fiiy	70	文化
+䷿	fiiy	30	文化
 直流电	fij	100
 求贤	fijc	100
 未明	fije	100
@@ -41243,6 +41264,7 @@ Firefox	firx	90
 救离	fiyb	100
 过河卒子	fiyb	90
 未育	fiyc	100
+违法记录封存	fiyd	110	热词
 煮酒论英雄	fiyd	100
 未读	fiyf	100
 未计	fiyf	90
@@ -41263,6 +41285,7 @@ Firefox	firx	90
 未诉	fiyr	100
 救谁	fiyr	70
 无法访问	fiyu	100
+违法记录	fiyv	100	热词
 㐜	fiyv	5
 求诊	fiyw	100
 救亡	fiyy	100
@@ -41398,6 +41421,8 @@ Firefox	firx	90
 坤	fjh	100
 刊	fjh	90
 远日点	fjh	80
+䷁	fjh	30	文化
+☷	fjh	20	文化
 朝上	fjhh	100
 刌	fjhh	5
 都督	fjhi	100
@@ -41560,6 +41585,8 @@ Firefox	firx	90
 乾	fjt	100
 于是乎	fjt	90
 专题片	fjt	80
+䷀	fjt	30	文化
+☰	fjt	20	文化
 无师自通	fjtc	100
 韩籍	fjtd	70
 煮透	fjte	70
@@ -42137,6 +42164,7 @@ Flash Player	flap	90
 十四五	flg	90
 增开	flga	100
 款型	flga	90
+“十四五”规划	flga	80	经济
 增至	flgc	100
 雷到	flgc	90
 增加到	flgc	80
@@ -42394,6 +42422,7 @@ flv	flv	100
 FLV	flv	90
 露奶	flve	100
 增发	flvh	100
+奉示召见	flvm	100	热词
 十男九痔	flvu	100
 十男九痔，十女十痔	flvu	90
 露娜	flvv	100
@@ -44748,6 +44777,8 @@ FPS游戏	fpsc	100
 坎	fqw	100
 老铁们	fqw	90
 十多个	fqw	80
+䷜	fqw	30	文化
+☵	fqw	20	文化
 元代	fqwa	100
 无创	fqwb	100
 无他	fqwb	90
@@ -44823,6 +44854,7 @@ FPS游戏	fpsc	100
 无妄	fqyv	100
 元朗	fqyv	90
 无良	fqyv	80
+䷘	fqyv	30	文化
 无论	fqyw	100
 㽌	fqyy	5
 圴	fqyy	5
@@ -45213,8 +45245,7 @@ freestyle	free	70
 考	fs	100
 霜	fs	90
 霖	fs	80
-都要	fs	70
-都想	fs	60
+都想	fs	70
 老校区	fsa	100
 赤橙黄绿青蓝紫	fsah	100
 赤橙黄绿蓝靛紫	fsah	90
@@ -47668,8 +47699,8 @@ F组	fxe	80
 不	g	100
 一	g	90
 到	g	80
-不是	g	70
 一下	g	60
+壹	g	30	经济
 1⃣	g	5
 🙅‍♀️	g	5
 🙅‍♂️	g	5
@@ -48357,6 +48388,7 @@ gaygay的	gayr	90
 屯	gb	90
 到了	gb	80
 不也	gb	70
+䷂	gb	30	文化
 环卫工	gba	100
 武隆区	gba	90
 环卫工	gbaa	100
@@ -50801,9 +50833,8 @@ GFW	gfwl	100
 五	gg	100
 王	gg	90
 琴	gg	80
-不到	gg	70
+伍	gg	70	经济
 5G	gg	60
-一到	gg	50
 5⃣	gg	5
 🎹	gg	5
 一切	gga	100
@@ -51129,7 +51160,6 @@ GFW	gfwl	100
 一斑	gggy	70
 一天一充	gggy	60
 下一步	ggh	100
-一下	ggh	90
 不平衡	ggh	80
 还不睡	ggh	70
 表现得	ggh	60
@@ -52756,6 +52786,7 @@ GHz	ghx	90
 还	gi	100
 否	gi	90
 歪	gi	80
+䷋	gi	30	文化
 麦当劳	gia	100
 下酒菜	gia	90
 青浦区	gia	80
@@ -55792,6 +55823,7 @@ give me five	gmf	80
 两	gmww	20
 现货	gmwx	100
 两化	gmwx	90
+两仪	gmwy	100	文化
 不同意	gmx	100
 两级	gmxb	100
 丙级	gmxb	90
@@ -56351,6 +56383,7 @@ gNodeB	gnob	100
 🌏	goiy	5
 晋	goj	100
 到底是	goj	90
+䷢	goj	30	文化
 戬	goja	100
 鄑	gojb	5
 严紧	gojc	100
@@ -61386,7 +61419,7 @@ G组	gxe	90
 上	h	100
 得	h	90
 很	h	80
-上一	h	70
+上下	h	70
 ⤴	h	5
 ⬆	h	5
 👆	h	5
@@ -65300,6 +65333,7 @@ Hello World	hlwd	100
 虑	hn	100
 卢	hn	90
 鼎	hn	80
+䷱	hn	30	文化
 眠	hna	100
 饲草	hnaj	100
 䁕	hnaj	5
@@ -68032,6 +68066,7 @@ Happy Valentine's Day	hvd	90
 睽	hwg	100
 微信豆	hwg	90
 饸	hwg	80
+䷥	hwg	30	文化
 微信开发者工具	hwge	100
 上传下载	hwgf	100
 微信开发者	hwgf	90
@@ -72163,6 +72198,7 @@ IGMP	igmp	100
 法律规定	ihfp	100
 滤过	ihfp	90
 小过	ihfp	80	文化
+䷽	ihfp	30	文化
 渺远	ihfq	100
 举目无亲	ihfu	100
 小雪	ihfv	100
@@ -72716,6 +72752,7 @@ IGMP	igmp	100
 小卒	ihyw	100
 污点证人	ihyw	90
 小畜	ihyx	100
+䷈	ihyx	30	文化
 小议	ihyy	100
 举止言谈	ihyy	90
 法律诉讼	ihyy	80
@@ -74467,6 +74504,7 @@ ikbc	ikbc	100
 㳭	ikyy	5
 渐	il	100
 渐渐	il	90
+䷴	il	30	文化
 沙田区	ila	100
 小趴菜	ila	90
 ☸	ila	5
@@ -76581,6 +76619,7 @@ IPS面板	ipss	100
 深重	iptg	70
 深处	ipth	100
 演算	ipth	90
+治安管理处罚法	ipti	100	法律
 沉香	iptj	100
 浓香	iptj	90
 沉积	iptk	100
@@ -76956,6 +76995,7 @@ iPhone X	ipx	90
 光轴	iqlm	100
 当然因为	iqlo	100
 逃路	iqlo	90
+消银颗粒	iqlo	80	医学
 淡然置之	iqlp	100
 漠然置之	iqlp	90
 逃跑	iqlq	100
@@ -76965,6 +77005,7 @@ iPhone X	ipx	90
 活久见	iqm	100
 淘金币	iqm	90
 涣	iqm	80
+䷺	iqm	30	文化
 小兔崽子	iqmb	100
 渙	iqmd	5
 流金岁月	iqme	100
@@ -78103,10 +78144,14 @@ IT	it	70
 活出	itb	90
 沲	itb	80
 海子	itbb	100
+少阴	itbe	100	文化
+⚍	itbe	20	文化
 海陆	itbf	100
 㳵	itbg	5
 沲	itbh	100
 泛函	itbi	100
+少阳	itbj	100	文化
+⚎	itbj	20	文化
 省际	itbl	100
 泛出	itbm	100
 活出	itbm	90
@@ -81815,6 +81860,7 @@ JDK	jdk	100
 明珠	jegr	100
 明末	jegs	100
 明夷	jegx	100	文化
+䷣	jegx	30	文化
 琞	jegy	5
 电脑桌	jeh	100
 是有点	jeh	90
@@ -83939,6 +83985,7 @@ J.K.罗琳	jklg	90
 曙	jlf	90
 归因于	jlf	80
 昷	jlf	70
+䷑	jlf	30	文化
 坚果云	jlfc	100
 曼城	jlfd	100
 昷	jlff	100
@@ -84114,6 +84161,7 @@ J.K.罗琳	jklg	90
 师	jm	100
 遇	jm	90
 帅	jm	80
+䷆	jm	30	文化
 量贩式	jma	100
 蛐	jma	90
 量贩式	jmaa	100
@@ -85954,6 +86002,7 @@ json	json	90
 收	jt	100
 临	jt	90
 蜂	jt	80
+䷒	jt	30	文化
 🐝	jt	5
 收藏	jta	100
 收工	jta	90
@@ -86834,6 +86883,7 @@ JVM	jvm	100
 照准	jvur	100
 归巢	jvv	100
 归妹	jvvf	100	文化
+䷵	jvvf	30	文化
 归巢	jvvl	100
 晒娃狂魔	jvvo	100
 昭君	jvvt	100
@@ -90048,6 +90098,7 @@ kg	kg	70
 走俏	kgwi	100
 物理化学	kgwi	90
 另一个是	kgwj	100
+吸毒人员	kgwk	100	热词
 号段	kgwm	100
 走偏	kgwo	100
 另一个角度	kgwo	90
@@ -90208,6 +90259,7 @@ kg	kg	70
 啃	khe	100
 噱	khe	90
 中孚	kheb	100	文化
+䷼	kheb	30	文化
 患有	kheg	100
 㘌	khej	5
 中盘	khel	100
@@ -94479,6 +94531,7 @@ K歌红包	ksxq	100
 呼哧	ktkf	90
 川味	ktkf	80
 噬嗑	ktkf	70	文化
+䷔	ktkf	30	文化
 呂	ktkf	5
 呼号	ktkg	100
 啝	ktkg	5
@@ -96163,10 +96216,9 @@ kWh	kwh	80
 呅	kyyy	5
 里	l	100
 连	l	90
-四	l	80
+〇	l	80
 国家	l	70
 0⃣	l	5
-4⃣	l	5
 野	la	100
 距	la	90
 墅	la	80
@@ -98399,8 +98451,11 @@ LG	lgll	100
 图形计算器	lgyk	100
 国事访问	lgyu	100
 国文	lgyy	100
-足	lh	100
-甲	lh	90
+四	lh	100
+足	lh	90
+甲	lh	80
+肆	lh	70	经济
+4⃣	lh	5
 四散	lha	100
 四节	lhab	100
 四项	lhad	100
@@ -98627,6 +98682,7 @@ LG	lgll	100
 四色	lhqc	100
 四角	lhqe	100
 鸭行鹅步	lhqh	100
+四象	lhqj	110	文化
 四旬	lhqj	100
 足够	lhqk	100
 田径锦标赛	lhqp	100
@@ -101953,6 +102009,7 @@ Logic Pro X	lpx	80
 果	ls	100
 困	ls	90
 颗	ls	80
+䷮	ls	30	文化
 😞	ls	5
 😴	ls	5
 困苦	lsa	100
@@ -103754,8 +103811,9 @@ LTPS	ltps	100
 詈词	lyyn	100
 由	m	100
 则	m	90
-八	m	80
-由于	m	70
+风	m	80
+八	m	70
+捌	m	30	经济
 8⃣	m	5
 🎱	m	5
 曲	ma	100
@@ -105831,14 +105889,11 @@ MG动画	mgfg	100
 同伴	mgwu	100
 同位	mgwu	90
 山形健	mgwv	100
-同一个世界，同一个爸妈	mgwv	90
-同一个世界，同一个妈	mgwv	80
 贱人	mgww	100
 同一个人	mgww	90
 同价	mgww	80
-几万人	mgww	70
-同一个世界，同一个	mgww	60
-同人	mgww	50
+同人	mgww	70
+䷌	mgww	30	文化
 同化	mgwx	100
 贱货	mgwx	90
 同住	mgwy	100
@@ -108172,8 +108227,7 @@ MPV	mpv	100
 夙夜	mqyw	100
 见谅	mqyy	100
 分裂主义	mqyy	90
-风	mr	100
-刚	mr	90
+刚	mr	100
 💨	mr	5
 🕸	mr	5
 刚巧	mra	100
@@ -108489,8 +108543,8 @@ MPV	mpv	100
 风铃	mrqw	100
 🎐	mrqw	5
 风镜	mrqx	100
-网	mrr	110
 几年后	mrr	100
+网	mrr	90
 网报	mrrb	100
 刚把	mrrc	100
 网盾	mrrf	100
@@ -110588,7 +110642,6 @@ MX Master	mxm	90
 㟂	mxyy	5
 凡	my	100
 丹	my	90
-彤	my	80
 崇文区	mya	100
 周敦颐	mya	90
 雘	myac	5
@@ -112589,6 +112642,7 @@ Nginx	ngix	90
 恒	ngj	100
 怕不是	ngj	90
 翟天临	ngj	80
+䷟	ngj	30	文化
 怕不是个傻子	ngjb	100
 怕不是石乐志	ngjf	100
 慱	ngjf	5
@@ -113137,6 +113191,7 @@ NGP	ngp	100
 疏林	nhss	100
 飞行棋	nhss	90
 履	nht	100
+䷉	nht	30	文化
 眉笔	nhte	100
 㦆	nhth	5
 屩	nhtl	5
@@ -114307,6 +114362,8 @@ nm离谱	nmyy	100
 尸	nn	70
 居民区	nna	100
 巽	nna	90
+䷸	nna	30	文化
+☴	nna	20	文化
 懒懒散散	nnaa	100
 忆苦	nnad	100
 居心叵测	nnai	100
@@ -116656,6 +116713,8 @@ NVMe	nvme	100
 怜	nw	100
 恰	nw	90
 愉	nw	80
+夬	nw	70
+䷪	nw	30	文化
 情人节	nwa	100
 戮	nwa	90
 居住区	nwa	80
@@ -116727,7 +116786,6 @@ n个	nwh	100
 尉健行	nwhl	100
 情人眼里出西施	nwhp	100
 恰饭	nwhr	100
-夬	nwi	100
 民俗学	nwi	90
 民俗学	nwib	100
 乆	nwii	5
@@ -116873,6 +116931,7 @@ n个	nwh	100
 已经	nx	100
 习惯	nx	90
 惯	nx	80
+尼	nx	70
 尼萌	nxa	100
 惯匪	nxaj	100
 尼萌	nxaj	90
@@ -117043,7 +117102,6 @@ no zuo no die why you try	nxnt	100
 习惯问题	nxuj	100
 愵	nxuu	5
 恃强凌弱	nxux	100
-尼	nxv	100
 惯犯	nxvb	100
 尼姑	nxvd	100
 已经发现	nxvg	100
@@ -117423,9 +117481,9 @@ no zuo no die why you try	nxnt	100
 席	oa	90
 烧	oa	80
 OA	oa	70
-°	oa	10	符号
 ℃	oa	10
 ℉	oa	10
+°	oa	10	符号
 糖葫芦	oaa	100
 爆菊花	oaa	90
 麻花藤	oaa	80
@@ -123716,6 +123774,7 @@ Outlook	outl	100
 粘鼠板	ovsr	90
 康桥	ovst	100
 炀	ovt	100
+数智	ovtd	100	科技
 数千	ovtf	100
 庚午	ovtf	90
 敝帚自珍	ovtg	100
@@ -124786,7 +124845,7 @@ Outlook	outl	100
 灬	oyyy	100
 炆	oyyy	5
 着	p	100
-宗	p	90
+羊	p	90
 之	p	80
 空	pa	110
 穿	pa	100
@@ -126200,6 +126259,7 @@ PE	pel	90
 家人	peww	100
 被告人	peww	90
 宜人	peww	80
+䷤	peww	30	文化
 家禽	pewy	100
 家住	pewy	90
 家信	pewy	80
@@ -128406,6 +128466,7 @@ P图	plt	100
 PLUM	plu	100
 plum	plu	90
 蹇	plu	80
+䷦	plu	30	文化
 宗卷	plub	100
 PLUM机械键盘	plue	100
 军装	pluf	100
@@ -129450,7 +129511,6 @@ po主	poyg	100
 宇宙观	ppcm	100
 之难	ppcr	100
 冤家对头	ppcu	100
-𰻞𰻞面	ppd	100
 𰻝𰻝面	ppd	90
 之友	ppd	80
 初养成	ppd	70
@@ -129463,7 +129523,6 @@ po主	poyg	100
 宽宏大量	ppdj	100
 之感	ppdk	100
 之面	ppdm	100
-𰻞𰻞面	ppdm	90
 𰻝𰻝面	ppdm	80
 初养成	ppdn	100
 宇宙大爆炸	ppdo	100
@@ -129916,6 +129975,7 @@ papi酱	ppu	80
 旅	pq	100
 冤	pq	90
 宛	pq	80
+䷷	pq	30	文化
 宽银幕	pqa	100
 羝	pqa	90
 宛若	pqad	100
@@ -132138,7 +132198,6 @@ PWM调光	pwmi	100
 它说	pxyu	100
 䍭	pxyy	5
 方	py	100
-羊	py	90
 穴	py	80
 🐏	py	5
 🐐	py	5
@@ -133549,6 +133608,7 @@ QAQ	qaq	80
 角	qe	90
 铺	qe	80
 我有	qe	70
+䷧	qe	30	文化
 解散	qea	100
 解药	qea	90
 铣工	qeaa	100
@@ -140994,7 +141054,8 @@ Q弹	qxu	100
 的	r	100
 年	r	90
 把	r	80
-2025年	r	70
+2026年	r	70
+2025年	r	60
 找	ra	100
 摸	ra	90
 撒	ra	80
@@ -143387,6 +143448,7 @@ Return	retu	100
 挂虑	rfhn	100
 鶞	rfho	5
 遁	rfhp	100
+䷠	rfhp	30	文化
 挂饰	rfht	100
 貭	rfhu	5
 反动派	rfi	100
@@ -146171,6 +146233,7 @@ R.I.P.	rip	90
 损	rkm	100
 抚顺市	rkm	90
 挡中央	rkm	80
+䷨	rkm	30	文化
 挡中央	rkmd	100
 捐髓	rkme	100
 抚顺市	rkmi	100
@@ -156199,6 +156262,7 @@ setup	setu	100
 想不到	sgg	100
 井	sgg	90
 枉	sgg	80
+䷯	sgg	30	文化
 #⃣	sgg	5
 想不开	sgga	100
 杯盏	sgga	90
@@ -160586,8 +160650,8 @@ srt	srt	90
 攀谈	sryo	100
 斯文	sryy	100
 檄文	sryy	90
-林	ss	100
-木	ss	90
+木	ss	100
+林	ss	90
 森	ss	80
 想想	ss	70
 想要	ss	60
@@ -163163,6 +163227,7 @@ Swift	swit	90
 筑	ta	80
 Ta	ta	70
 TA	ta	60
+䷭	ta	30	文化
 🆙	ta	5
 长工	taa	100
 种草莓	taa	90
@@ -167362,6 +167427,7 @@ tips	tips	100
 利	tj	100
 香	tj	90
 复	tj	80
+䷗	tj	30	文化
 向日葵	tja	100
 🌻	tja	5
 复式	tjaa	100
@@ -171044,6 +171110,7 @@ TRUE	true	90
 科	tu	100
 乎	tu	90
 乘	tu	80
+利益	tu	70
 ✖	tu	5
 ❌	tu	5
 剩菜	tua	100
@@ -172776,8 +172843,9 @@ too young too simple	tyts	90
 将	u	100
 问	u	90
 道	u	80
-道理	u	70
-🆕	u	5
+六	u	70
+陆	u	30	经济
+6⃣	u	5
 ⁉	u	5
 ❓	u	5
 ❔	u	5
@@ -174945,8 +175013,8 @@ U盘	uel	100
 半裸	ufpl	100
 装穷	ufpl	90
 半袖	ufpm	100
-闺密	ufpn	100
-闺蜜	ufpn	90
+闺蜜	ufpn	100
+闺密	ufpn	90
 闥	ufpp	5
 半旗	ufps	100
 壮族	ufpt	100
@@ -175170,6 +175238,7 @@ UFS	ufs	80
 美	ug	100
 病	ug	90
 盖	ug	80
+道理	ug	70
 🤮	ug	5
 😷	ug	5
 🚑	ug	5
@@ -176103,6 +176172,7 @@ U点	uhk	70
 新	ui	100
 亲	ui	90
 冰	ui	80
+🆕	ui	5
 👄	ui	5
 💋	ui	5
 💏	ui	5
@@ -177222,6 +177292,8 @@ UI设计	uiyy	100
 竞	ukq	100
 兑	ukq	90
 况	ukq	80
+䷹	ukq	30	文化
+☱	ukq	20	文化
 冲昏	ukqa	100
 冲印	ukqb	100
 兗	ukqb	5
@@ -178749,7 +178821,7 @@ Upload	uplo	90
 决定性	upns	100
 兼容性	upns	90
 立方米	upo	100
-m³	upo	90
+㎥	upo	90
 亲密度	upo	80
 阎鹤祥	upo	70
 亲密度	upoa	100
@@ -178816,6 +178888,7 @@ m³	upoy	90
 兼容并蓄	upua	90
 新冠病毒	upug	100
 问寒问暖	upuj	100
+交割单	upul	100	经济
 遵守交通规则	upum	100
 新冠状病毒肺炎	upuo	100
 新冠病毒肺炎	upuo	90
@@ -180599,6 +180672,7 @@ UTF-16	utfu	100
 益	uu	90
 阅	uu	80
 问问	uu	70
+䷩	uu	30	文化
 闸北区	uua	100
 斗门区	uua	90
 冰阔落	uua	80
@@ -182060,7 +182134,6 @@ UX设计	uxyy	100
 六	uy	90
 辛	uy	80
 将就	uy	70
-6⃣	uy	5
 🚪	uy	5
 辛苦	uya	100
 兰亭苑	uya	90
@@ -182564,6 +182637,8 @@ UX设计	uxyy	100
 那	v	90
 好	v	80
 九	v	70
+玖	v	30	经济
+9⃣	v	5
 🆗	v	5
 🙆‍♀️	v	5
 🙆‍♂️	v	5
@@ -182663,6 +182738,7 @@ VA面板	vads	90
 群荣誉	vaiu	90
 既当	vaiv	100
 既济	vaiy	100	文化
+䷾	vaiy	30	文化
 猎	vaj	100
 暨	vaj	90
 嫫	vaj	80
@@ -185421,6 +185497,7 @@ VGA接口	vgak	100
 剥	vij	100
 肃	vij	90
 猪小明	vij	70
+䷖	vij	30	文化
 姚晨	vijd	100
 姚明	vije	100
 猪小明	vije	70
@@ -186628,6 +186705,7 @@ VMware Workstation	vmww	90
 刀	vn	100
 鼠	vn	90
 妃	vn	80
+发展	vn	70	经济
 🐀	vn	5
 🐁	vn	5
 🐭	vn	5
@@ -186734,6 +186812,8 @@ VNC	vnc	100
 艮	vng	90
 鼯	vng	80
 彐	vng	70
+䷳	vng	30	文化
+☶	vng	20	文化
 发展到了	vngb	100
 狗屁不通	vngc	100
 鼱	vnge	5
@@ -187792,6 +187872,7 @@ v我50	vqgf	100
 狛	vrgg	5
 㚱	vrgg	5
 䧱	vrgg	5
+䷫	vrgk	30	文化
 姤	vrgk	5
 妈的逼	vrgl	100
 好看不火	vrgo	100
@@ -188143,7 +188224,6 @@ vSphere	vsp	80
 群	vt	100
 君	vt	90
 那么	vt	80	常用
-9⃣	vt	5
 👥	vt	5
 那种东西	vta	100
 猪笼草	vta	90
@@ -190625,6 +190705,7 @@ wayland	wayl	90
 保险丝	wbxx	100
 创设	wby	100
 个子高	wby	90
+伋	wby	5
 他让	wbyh	100
 他就	wbyi	100
 他也就是	wbyj	100
@@ -190635,7 +190716,6 @@ wayland	wayl	90
 他说	wbyu	100
 全职主妇	wbyv	100
 仔畜	wbyx	100
-伋	wbyy	5
 似	wc	100
 仅	wc	90
 俊	wc	80
@@ -192534,8 +192614,8 @@ weibo.com	wei	100
 借一步说话	wghy	90
 伯夷叔齐	wghy	80
 从来没	wgi	100
-任天堂	wgi	90
-伦理学	wgi	80
+伦理学	wgi	90
+任天堂	wgi	80
 伓	wgi	5
 倒满	wgia	100
 倒灌	wgia	90
@@ -194552,6 +194632,7 @@ Windows XP	winx	90
 你咋知道	wktu	80
 你只管大力，剩下的交给奇迹	wkty	100
 储物间	wku	100
+贪嗔痴	wku	90	哲学
 保送	wkud	100
 保新	wkui	100
 人品问题	wkuj	100
@@ -195351,6 +195432,7 @@ Windows Media Player	wmp	80
 假	wn	100
 追	wn	90
 亿	wn	80
+人民	wn	70
 人民	wna	100
 人民医院	wnab	100
 追悔莫及	wnab	90
@@ -199189,7 +199271,6 @@ WTO	wto	100
 从	ww	100
 坐	ww	90
 伦	ww	80
-你们	ww	70
 人工	wwa	100
 命令式	wwa	90
 人工	wwaa	100
@@ -199896,8 +199977,9 @@ WWDC	wwdc	80
 令人智熄的操作	wwtw	90
 耸入	wwty	100
 他们	wwu	100
-人们	wwu	90
-仌	wwu	80
+你们	wwu	90
+人们	wwu	80
+仌	wwu	70
 从头	wwud	100
 人头	wwud	90
 你个头	wwud	80
@@ -200082,6 +200164,7 @@ WWDC	wwdc	80
 化	wx	100
 华	wx	90
 佛	wx	80
+㑄	wx	5
 化工	wxa	100
 化工	wxaa	100
 传统艺能	wxac	100
@@ -200269,13 +200352,12 @@ WWDC	wwdc	80
 货币	wxmw	100
 💲	wxmw	5
 创意性	wxn	100
+億	wxn	5
 佛殿	wxna	100
 🛐	wxna	5
 创意性地	wxnf	100
 倾情	wxng	100
 倾心	wxni	100
-億	wxni	5
-㑄	wxnn	5
 创意性的	wxnr	100
 佛性	wxns	100
 创意性	wxns	90
@@ -201108,6 +201190,7 @@ WWDC	wwdc	80
 比	x	90
 张	x	80
 约	x	70
+䷇	x	30	文化
 🆚	x	5
 红	xa	100
 练	xa	90
@@ -207680,6 +207763,8 @@ YARN	yarn	100
 郭	yb	80
 这也	yb	70
 这了	yb	60
+䷝	yb	30	文化
+☲	yb	20	文化
 说也巧	yba	100
 离散	ybae	100
 郭勒	ybaf	100
@@ -211805,6 +211890,7 @@ Y轴	ylm	90
 高风险	ymbw	100
 讼	ymc	100
 调通	ymc	90
+䷅	ymc	30	文化
 调戏	ymca	100
 调参	ymcd	100
 调通	ymce	100
@@ -214426,6 +214512,7 @@ YSL	ysl	80
 谦	yu	90
 谱	yu	80
 请问	yu	70
+䷎	yu	30	文化
 🎼	yu	5
 高新区	yua	100
 ●	yua	90
@@ -216183,9 +216270,13 @@ Z世代	zawa	100
 ≯	zbd	90
 ≠	zbdy	100
 ≯	zbdy	90
-☯	zbg	75
-⚋	zbg	74
-⚊	zbg	73
+☯	zbg	79
+⚋	zbg	78
+⚊	zbg	77
+⚌	zbg	76
+⚍	zbg	75
+⚎	zbg	74
+⚏	zbg	73
 ☰	zbg	72
 ☷	zbg	71
 ☳	zbg	70
@@ -217112,6 +217203,8 @@ o(╯□╰)o	zji	80
 《	zk	100
 〈	zk	90
 <	zk	80
+    	zk	70	符号
+        	zk	60	符号
 /可爱	zka	100
 [愉快]	zka	90
 Χ	zka	80
