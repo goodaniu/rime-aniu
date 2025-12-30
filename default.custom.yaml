@@ -12,6 +12,7 @@ patch:
   schema_list:
     - schema: aniu                       # 091五笔，点儿词库，自用修改版
     - schema: pinyin_simp               # 普通拼音
+    - schema: shuangpin                 # 小鹤双拼
     - schema: melt_eng                  # 简单英语
     # - schema: numbers                   # 大写数字
 
