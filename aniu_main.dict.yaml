@@ -28,7 +28,6 @@ sort: by_weight
 花	a	90
 工	a	80
 七	a	70
-柒	a	30	经济
 7⃣	a	5
 🌷	a	5
 🌸	a	5
@@ -13466,6 +13465,7 @@ buff叠满	bufi	100
 孤立无援	bufr	100
 联考	bufs	100
 陪考	bufs	90
+BUG	bug	110
 bug	bug	100
 聊闲天	bug	90
 出头天	bug	80
@@ -22784,7 +22784,6 @@ Desktop	desp	100
 三	dg	100
 古	dg	90
 硬	dg	80
-叁	dg	70	经济
 3G	dg	50
 3⃣	dg	5
 研	dga	100
@@ -36847,7 +36846,6 @@ e充电	eyjn	90
 去	f	80
 十	f	70
 🔟	f	60
-拾	f	30	经济
 域	fa	100
 戴	fa	90
 载	fa	80
@@ -39695,7 +39693,6 @@ F盘	fel	90
 二	fg	100
 干	fg	90
 士	fg	80
-贰	fg	70	经济
 2G	fg	60
 2⃣	fg	5
 十七	fga	100
@@ -44569,8 +44566,8 @@ FPS游戏	fpsc	100
 无精	fqog	90
 无业	fqoh	100
 均应	fqoi	100
-无神	fqoj	100
-元神	fqoj	90
+无神	fqoj	90
+元神	fqoj	100
 无烟	fqol	100
 无视	fqom	100
 远视	fqom	90
@@ -47700,14 +47697,13 @@ F组	fxe	80
 一	g	90
 到	g	80
 一下	g	60
-壹	g	30	经济
 1⃣	g	5
 🙅‍♀️	g	5
 🙅‍♂️	g	5
 🙅	g	5
 开	ga	100
-型	ga	90
-弄	ga	80
+型	gaj	90
+弄	ga	90
 形式	gaa	100
 一幕幕	gaa	90
 开幕式	gaa	80
@@ -47816,7 +47812,6 @@ F组	fxe	80
 刑具	gaeu	70
 型腿	gaev	100
 开脸	gaew	100
-贰	gaf	100
 不甘于	gaf	90
 下功夫	gaf	80
 不劳无获	gafa	100
@@ -48387,7 +48382,6 @@ gaygay的	gayr	90
 顿	gb	100
 屯	gb	90
 到了	gb	80
-不也	gb	70
 ䷂	gb	30	文化
 环卫工	gba	100
 武隆区	gba	90
@@ -48612,9 +48606,7 @@ Gbps	gbps	100
 至	gc	100
 致	gc	90
 玛	gc	80
-不对	gc	70
-不能	gc	60
-一对	gc	50
+不能	gc	70
 致敬	gca	100
 万圣节	gca	90
 一双鞋	gca	80
@@ -48803,7 +48795,6 @@ Gbps	gbps	100
 不以为耻反以为荣	gcoa	90
 不以为耻	gcob	100
 万能福	gcog	100
-武能床上定人妻	gcog	90
 到店	gcoh	100
 到爆	gcoj	100
 致礼	gcon	100
@@ -50833,7 +50824,6 @@ GFW	gfwl	100
 五	gg	100
 王	gg	90
 琴	gg	80
-伍	gg	70	经济
 5G	gg	60
 5⃣	gg	5
 🎹	gg	5
@@ -52026,7 +52016,6 @@ gaygay的	ggr	80
 正	gh	90
 政	gh	80
 不很	gh	70
-不上	gh	60
 ➕	gh	5
 ⤵	gh	5
 ⬇	gh	5
@@ -55174,7 +55163,6 @@ Gay里Gay气	glge	90
 现	gm	90
 再	gm	80
 不同	gm	70	常用
-不由	gm	70
 Gmail	gma	100
 一朵花	gma	90
 平谷区	gma	80
@@ -56206,7 +56194,6 @@ gNodeB	gnob	100
 理性认识	gnyy	90
 来	go	100
 亚	go	90
-恶	go	80
 不应	go	70
 戬	goa	100
 平底鞋	goa	90
@@ -56465,8 +56452,8 @@ gNodeB	gnob	100
 赉	gomu	100
 一视同仁	gomw	100
 严嵩	gomy	100
-恶心	gon	100
-一扇	gon	90
+恶	gon	100
+恶心	gon	90
 事业心	gon	80
 晋剧	gond	100
 恶心	goni	100
@@ -56734,7 +56721,6 @@ G座	gow	90
 灭亡	goyy	100
 Go语言	goyy	90
 带	gp	100
-一定	gp	90
 璇	gp	80
 不定式	gpa	100
 不定项	gpa	90
@@ -58081,8 +58067,6 @@ Groove音乐	groq	100
 琳	gs	90
 琪	gs	80
 不要	gs	70
-不想	gs	60
-一样	gs	50
 一枝花	gsa	90
 一杯茶	gsa	80
 球生菜	gsa	70
@@ -58617,7 +58601,6 @@ GSM	gsm	90
 麦	gt	90
 玫	gt	80
 下午	gt	70
-一向	gt	60
 🎙	gt	5
 🎤	gt	5
 不等式	gta	100
@@ -59917,7 +59900,6 @@ GV号	gvkg	100
 珍	gw	90
 玲	gw	80
 不会	gw	70
-一人	gw	60
 不信邪	gwa	100
 玳	gwa	90
 责任区	gwa	80
@@ -60933,9 +60915,6 @@ G组	gxe	90
 互谅	gxyy	100
 玉	gy	100
 班	gy	90
-不就	gy	80
-不许	gy	70
-到这	gy	60
 班花	gya	100
 万州区	gya	90
 开斋节	gyab	100
@@ -61744,8 +61723,8 @@ HBuilder	hbur	100
 彶	hbyy	5
 皮	hc	100
 颇	hc	90
-径	hc	80
-皮匠	hca	100
+径	hca	100
+皮匠	hca	90
 皮鞋	hcaf	100
 皮革	hcaf	90
 皮鞭	hcaf	80
@@ -61953,8 +61932,6 @@ Happy Chinese New Year	hcny	90
 䬮	hcyy	5
 德	hd	100
 很大	hd	90
-H.264	hd	80
-H.265	hd	70
 很成功	hda	100
 矋	hdac	5
 䭉	hdae	5
@@ -63726,8 +63703,7 @@ HHKB	hhkb	100
 步	hi	100
 叔	hi	90
 频	hi	80
-睡觉	hi	70
-很小	hi	60
+很小	hi	70
 徐汇区	hia	100
 卢湾区	hia	90
 上海菜	hia	80
@@ -66567,7 +66543,6 @@ HP	hp	70
 饭	hr	100
 瞧	hr	90
 御	hr	80
-上的	hr	70
 🍚	hr	5
 虚拟式	hra	100
 卡扎菲	hra	90
@@ -67317,8 +67292,8 @@ https协议	htty	90
 身高	htyl	100
 身亡	htyy	100
 饼	hu	100
-目前	hu	90
-饺	hu	80
+目前	hu	80
+饺	hu	90
 🥟	hu	5
 🧇	hu	5
 🍕	hu	5
@@ -70324,7 +70299,6 @@ IDLE	idle	100
 洗	ie	100
 汽	ie	90
 肖	ie	80
-没有	ie	70
 没用	ie	60
 IE	ie	50
 洗菜	iea	100
@@ -70946,7 +70920,6 @@ IES灯光	iesi	100
 汗	if	90
 洁	if	80
 没去	if	70
-当地	if	60
 😅	if	5
 😓	if	5
 😥	if	5
@@ -72760,7 +72733,7 @@ IGMP	igmp	100
 氺	ihyy	5
 水	ii	100
 消	ii	90
-沙	ii	80
+沙	iit	100
 🌊	ii	5
 💦	ii	5
 💧	ii	5
@@ -73485,7 +73458,7 @@ IGMP	igmp	100
 水柱	iisy	100
 浙江杭州	iisy	90
 㵉	iisy	5
-水滴筹	iit	100
+水滴筹	iit	70
 裟	iit	90
 激光笔	iit	80
 消长	iita	100
@@ -73681,7 +73654,6 @@ IGMP	igmp	100
 混	ij	90
 湿	ij	80
 小时	ij	70
-当时	ij	60
 瀑	ija	100
 清明节	ija	90
 小时工	ija	80
@@ -80230,7 +80202,6 @@ iwatch	iwah	90
 注	iy	90
 液	iy	80
 小说	iy	70
-没说	iy	60
 浪花	iya	100
 劣迹艺人	iya	90
 流式	iyaa	100
@@ -88442,8 +88413,6 @@ KeyboardTest	kbt	90
 哈巴狗	kcvq	100
 吧女	kcvv	100
 骂娘	kcvy	100
-吗？	kcw	100
-吧？	kcw	90
 牧马人	kcw	80
 骂他	kcwb	100
 唆使	kcwg	100
@@ -92842,7 +92811,6 @@ KN95口罩	knvl	100
 忠君	knvt	100
 嗜书如命	knvw	100
 顺心如意	knvx	100
-呢？	knw	100
 超导体	knw	90
 起伏	knwd	100
 嘐	knwe	5
@@ -98454,7 +98422,6 @@ LG	lgll	100
 四	lh	100
 足	lh	90
 甲	lh	80
-肆	lh	70	经济
 4⃣	lh	5
 四散	lha	100
 四节	lhab	100
@@ -101989,9 +101956,10 @@ Logic Pro X	lpx	80
 力排众议	lrwy	70
 軼	lrwy	5
 ⏸	lrwy	5
-转接线	lrx	100
+斩杀线	lrx	100
+转接线	lrx	80
 办手续	lrx	90
-四年级	lrx	80
+四年级	lrx	70
 四年级	lrxb	100
 暂缓	lrxe	100
 办手续	lrxf	100
@@ -102787,6 +102755,7 @@ LTPS	ltps	100
 回头一望	lugy	80
 较上	luh	100
 轻装上阵	luhb	100
+斩首行动	luhf	100	#热词
 回首往事	luhg	100
 较上	luhh	100
 蹲点	luhk	100
@@ -103813,7 +103782,6 @@ LTPS	ltps	100
 则	m	90
 风	m	80
 八	m	70
-捌	m	30	经济
 8⃣	m	5
 🎱	m	5
 曲	ma	100
@@ -104064,6 +104032,7 @@ Matlab	mat	80
 公共知识分子	matb	100
 Matlab	matb	90
 典籍	matd	100
+Mate 80	mate	110
 Matebook	mate	100
 MatePad	mate	95	个人
 MatePad 11.5	mate	93	个人
@@ -134238,6 +134207,7 @@ QEMU	qemu	100
 金元宝	qfpg	90
 鎍	qfpi	5
 争霸赛	qfpm	100
+多元宇宙	qfpp	100	#物理
 鐽	qfpp	5
 死于安乐	qfpq	100
 镇宅	qfpt	100
@@ -153959,7 +153929,7 @@ Ruby	ruby	100
 白话文	ryyy	90
 抆	ryyy	5
 要	s	100
-可	s	90
+可	sk	100
 其	s	80
 可以	s	70
 🤔	s	5
@@ -156762,7 +156732,7 @@ setup	setu	100
 本文	sgyy	100
 本该	sgyy	90
 西文	sgyy	80
-想	sh	100
+想	s	90
 相	sh	90
 朴	sh	80
 相切	sha	100
@@ -157893,8 +157863,8 @@ Happy birthday	sjnq	90
 🔎	sjyq	5
 要是说	sjyu	100
 可是这个	sjyw	100
-哥	sk	100
-歌	sk	90
+哥	sk	90
+歌	sk	80
 其中	sk	80
 〽	sk	5
 🉑	sk	5
@@ -172649,7 +172619,6 @@ Twitter	twit	100
 入圈	tylu	100
 入轨	tylv	100
 知识界	tylw	100
-短文：	tym	100
 肏	tym	90
 知识分子	tymb	100
 笐	tymb	5
@@ -172844,7 +172813,6 @@ too young too simple	tyts	90
 问	u	90
 道	u	80
 六	u	70
-陆	u	30	经济
 6⃣	u	5
 ⁉	u	5
 ❓	u	5
@@ -174657,6 +174625,7 @@ U盘	uel	100
 半	uf	100
 装	uf	90
 兰	uf	80
+美元	uf	70
 兰花	ufa	100
 新都区	ufa	90
 头戴式	ufa	80
@@ -175347,6 +175316,7 @@ UFS	ufs	80
 盖脸	ugew	100
 美元	ugf	100
 新天地	ugf	90
+$	ugf	10
 	ugf	5
 💵	ugf	5
 美哉	ugfa	100
@@ -182637,7 +182607,6 @@ UX设计	uxyy	100
 那	v	90
 好	v	80
 九	v	70
-玖	v	30	经济
 9⃣	v	5
 🆗	v	5
 🙆‍♀️	v	5
@@ -187825,11 +187794,8 @@ v我50	vqgf	100
 妁	vqyy	100
 奺	vqyy	5
 犳	vqyy	5
-寻找	vr	100
 狐	vr	90
 好的	vr	80
-她的	vr	70
-那年	vr	60
 🫡	vr	5
 🦊	vr	5
 即热式	vra	100
@@ -190705,7 +190671,7 @@ wayland	wayl	90
 保险丝	wbxx	100
 创设	wby	100
 个子高	wby	90
-伋	wby	5
+伋	wbyy	5
 他让	wbyh	100
 他就	wbyi	100
 他也就是	wbyj	100
@@ -195646,6 +195612,7 @@ WNBA	wnba	100
 人民团体	wnlw	100
 人民币	wnm	100
 人民网	wnm	90
+￥	wnm	10
 💴	wnm	5
 侯爷	wnmb	100
 假帐	wnmh	100
@@ -200163,7 +200130,6 @@ WWDC	wwdc	80
 人亡	wwyy	60
 化	wx	100
 华	wx	90
-佛	wx	80
 㑄	wx	5
 化工	wxa	100
 化工	wxaa	100
@@ -200352,7 +200318,7 @@ WWDC	wwdc	80
 货币	wxmw	100
 💲	wxmw	5
 创意性	wxn	100
-億	wxn	5
+億	wxny	5
 佛殿	wxna	100
 🛐	wxna	5
 创意性地	wxnf	100
@@ -209871,7 +209837,8 @@ yeelight	yeet	100
 主备	ygof	100
 主业	ygoh	100
 评判	ygoj	100
-请神	ygoj	90
+主神	ygoj	90	#文化
+请神	ygoj	80
 这不废话嘛	ygok	100
 这不废话吗	ygok	90
 评断	ygon	100
@@ -210200,9 +210167,7 @@ yeelight	yeet	100
 认不认识	ygyy	70
 让	yh	100
 谢	yh	90
-就很	yh	70
 这些	yh	60
-就得	yh	50
 谢幕	yha	100
 谢幕	yhaj	100
 谢世	yhan	100
