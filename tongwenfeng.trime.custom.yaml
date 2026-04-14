@@ -1,15 +1,15 @@
 # 基于默认的同文风主题，制作本补丁
 patch:
-  config_version: "3.3.8"
-  name: 同文(定制)       #方案名称
+  config_version: "3.3.9"
+  name: aniu定制       #方案名称
   author: "aniu <goodaniu@163.com>"
       
   #锚点
   anchor: 
     - &kbgp .2.jpg    #背景图片
+    # - &kbgp 0x88e8853b    #背景颜色
   
   # 风格设定
-  # style/enter_labels/default: ⏎
   style/+:
     __patch:
       horizontal_gap: 1
@@ -18,9 +18,11 @@ patch:
       keyboard_height: 265         #pad 400
       keyboard_height_land: 160    #pad 320
       keyboard_padding_land: 200  #pad 250
-      candidate_view_height: 30
+      # keyboard_padding_bottom: 30
+      candidate_view_height: 30  
       # key_text_size: 32              #pad 32
-      comment_text_size: 10
+      # comment_position: right #编码提示布局位置：right / top / overlay
+      # comment_text_size: 8
       enter_labels/default: ⏎
 
       
@@ -69,7 +71,7 @@ patch:
       foreground:
         style: "☟"
         font_size: 23
-      action: "/"
+      action: "`"
     punct_button: &punct_button
       foreground:
         option_styles: ["，。", ",."]
@@ -126,7 +128,7 @@ patch:
     caiwu:
       type: SINGLE
       name: "财务"
-      keys: [一,二,三,百,元,年,四,五,六,千,角,月,七,八,九,万,分,日,十,零,点,亿,整,正,周,〇,之,第,人民币,号,壹,贰,叁,佰,元,年,肆,伍,陆,仟,角,月,柒,捌,玖,万,分,日,拾,零,点,亿,整,正,萬,億,兆,厘,毫,秒,￥,百分之,克,米,升,吨,星期,工时,工日,美元,英镑,欧元]
+      keys: [萬,億,兆,厘,毫,秒,￥,百分之,克,米,升,吨,星期,工时,工日,美元,英镑,欧元,周,〇,之,第,人民币,号,一,二,三,百,元,年,四,五,六,千,角,月,七,八,九,万,分,日,十,零,点,亿,整,正,壹,贰,叁,佰,元,年,肆,伍,陆,仟,角,月,柒,捌,玖,万,分,日,拾,零,点,亿,整,正]
   
   colors: # 几种颜色
     0: &color0 0xffc03f3c       #胭脂红
@@ -158,14 +160,14 @@ patch:
       name: "彩色定制"
       author: "aniu"
       back_color: 0xffdadee1
-      candidate_separator_color: 0xffc9cdcf
+      candidate_separator_color: *color0  # 0xffc9cdcf
       candidate_text_color: 0xff5a676e
-      comment_text_color: 0xff7b868c
+      comment_text_color: *c7  #0xff7b868c
       dark_scheme: steam
       hilited_back_color: *h1
       hilited_candidate_back_color: *h1
       hilited_candidate_text_color: *color0
-      hilited_comment_text_color: *color0
+      hilited_comment_text_color: *c7
       hilited_key_back_color: *color6
       hilited_key_symbol_color: *color2
       hilited_key_text_color: *color1
@@ -252,7 +254,7 @@ patch:
       bgn: *color5    # 数字键盘符号
       benter: *color5    # 回车键
       
-    moren:
+    biaozhun:
       name: "标准配色！"  #方案名称
       author: 风花絮 #作者信息
       dark_scheme: steam
@@ -325,19 +327,21 @@ patch:
     width: 10
     # height: 48
     ascii_mode: 0
+    # reset_ascii_mode: true
+    # lock: true
     label_transform: uppercase
     keys: 
     # 数字行
-      - {click: 1, long_click: 1, swipe_up: '~', label_symbol: '~', key_back_color: bh0, key_text_color: th0}
-      - {click: 2, long_click: 2, swipe_up: "@", label_symbol: '@', key_back_color: bh0, key_text_color: th0}
-      - {click: 3, long_click: 3, swipe_up: "#",  label_symbol: '#', key_back_color: bh0, key_text_color: th0}
-      - {click: 4, long_click: 4, swipe_up: "$", label_symbol: '$', key_back_color: bh0, key_text_color: th0}
-      - {click: 5, long_click: 5, swipe_up: "%", label_symbol: '%', key_back_color: bh0, key_text_color: th0}
-      - {click: 6, long_click: 6, swipe_up: "^", label_symbol: '^', key_back_color: bh0, key_text_color: th0}
-      - {click: 7, long_click: 7, swipe_up: "&", label_symbol: '&', key_back_color: bh0, key_text_color: th0}
-      - {click: 8, long_click: 8, swipe_up: "*", label_symbol: '*', key_back_color: bh0, key_text_color: th0}
-      - {click: 9, long_click: 9, swipe_up: '\', label_symbol: '\', key_back_color: bh0, key_text_color: th0}
-      - {click: 0, long_click: 0, swipe_up: '{fanxiegang}', label_symbol: '/', swipe_down: "/", key_back_color: bh0, key_text_color: th0}
+      - {click: 1, popup: [ ¹, ₁ ], swipe_up: '~', label_symbol: '~', key_back_color: bh0, key_text_color: th0}
+      - {click: 2, popup: [ ², ₂ ], swipe_up: "@", label_symbol: '@', key_back_color: bh0, key_text_color: th0}
+      - {click: 3, popup: [ ³, ₃ ], swipe_up: "#",  label_symbol: '#', key_back_color: bh0, key_text_color: th0}
+      - {click: 4, popup: [ ⁴, ₄ ], swipe_up: "$", label_symbol: '$', key_back_color: bh0, key_text_color: th0}
+      - {click: 5, popup: [ ⁵, ₅ ], swipe_up: "%", label_symbol: '%', key_back_color: bh0, key_text_color: th0}
+      - {click: 6, popup: [ ⁶, ₆ ], swipe_up: "^", label_symbol: '^', key_back_color: bh0, key_text_color: th0}
+      - {click: 7, popup: [ ⁷, ₇ ], swipe_up: "&", label_symbol: '&', key_back_color: bh0, key_text_color: th0}
+      - {click: 8, popup: [ ⁸, ₈ ], swipe_up: "*", label_symbol: '*', key_back_color: bh0, key_text_color: th0}
+      - {click: 9, popup: [ ⁹, ₉ ], swipe_up: '\', label_symbol: '\', key_back_color: bh0, key_text_color: th0}
+      - {click: 0, popup: [ ⁰, ₀ ], swipe_up: '{fanxiegang}', label_symbol: '/', swipe_down: "/", key_back_color: bh0, key_text_color: th0}
     # 第一行
       - {click: q, long_click: Q, label_symbol: '=',swipe_up: '=', key_back_color: bh1, key_text_color: th1}
       - {click: w, long_click: W, label_symbol: '+', swipe_up: '+', key_back_color: bh1, key_text_color: th1}
@@ -351,10 +355,10 @@ patch:
       - {click: p, long_click: P, label_symbol: '→', swipe_up: '→', hint: '段', swipe_down: '{duanluo}{Left}{Left}{Left}{Left}', key_back_color: bh1, key_text_color: th1}
       # 第二行
       - {click: 'a', long_click: A, label_symbol: '—', swipe_up: '——', key_back_color: bh2, key_text_color: th2, width: 11.11}
-      - {click: 's', long_click: S, label_symbol: '<>',swipe_up: '<>{Left}',swipe_down: '{khj}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
-      - {click: 'd', long_click: D, label_symbol: '[]', swipe_up: '[]{Left}', swipe_down: '{khz}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
-      - {click: 'f', long_click: F, label_symbol: '{}', swipe_up: '{}{Left}', swipe_down: '{}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
-      - {click: 'g', long_click: G, label_symbol: '()', swipe_up: '(){Left}', swipe_down: '{khx}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
+      - {click: 's', long_click: S, label_symbol: '《》', hint: "<>", swipe_up: '<>{Left}',swipe_down: '{khj}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
+      - {click: 'd', long_click: D, label_symbol: "【】", hint: '[]', swipe_up: '[]{Left}', swipe_down: '{khz}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
+      - {click: 'f', long_click: F, label_symbol: "｛｝", hint: '{}', swipe_up: '｛｝{Left}', swipe_down: '{}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
+      - {click: 'g', long_click: G, label_symbol: "（）", hint: '()', swipe_up: '(){Left}', swipe_down: '{khx}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
       - {click: 'h', long_click: H, label_symbol: '“”', swipe_up: '“”{Left}', swipe_down: '{shuangyin}{shuangyin}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
       - {click: 'j', long_click: J, label_symbol: "'",swipe_up: "danyinhao", swipe_down: '‘’{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
       - {click: 'k', long_click: K, label_symbol: '"', swipe_up: 'shuangyin', swipe_down: '"', key_back_color: bh2, key_text_color: th2, width: 11.11}
@@ -370,14 +374,16 @@ patch:
       - {click: m, long_click: M, swipe_up: "_", label_symbol: '_', key_back_color: bh3, key_text_color: th3, width: 11.11}
       - {click: BackSpace2,swipe_up: Clears, swipe_down: Esc1, key_back_color: bbs, key_text_color: tbs, width: 11.11}
       # 第四行
-      - {click: Keyboard_number, long_click: "Theme_settings", swipe_up: "Color_switch", label_symbol: "❀", key_back_color: bnu, key_text_color: tnu, key_symbol_color: ksc4, width: 16}
-      - {click: Mode_switch, long_click: Keyboard_func, swipe_up: Keyboard_bqrw, key_back_color: bms, key_text_color: tms, key_text_size: 18, key_symbol_color: ksc4, width: 14}
-      - {click: space, ascii: space3, popup: ["VOICE_ASSIST", "Menu"], label_symbol: "⌨",swipe_up: '	', has_menu: select1, key_back_color: bkg, key_text_color: tkg, width: 26}
-      - {click: ",", label: "，", swipe_right: "douhao", popup: [liquid_keyboard_ascii, liquid_keyboard_cn], swipe_up: "!", swipe_down: '{commit: "!"}', label_symbol: "!", has_menu: select2, key_back_color: bco, key_text_color: tco, key_symbol_color: th4, width: 14}
-      - {click: ".", label: "。", swipe_right: "juhao", popup: ["Keyboard_symbols", "liquid_keyboard_caiwu", "liquid_keyboard_math"], swipe_up: "?", swipe_down: '{commit: "?"}', label_symbol: "?", has_menu: select3, key_back_color: bpe, key_text_color: tpe, key_symbol_color: th4, width: 14}
+      - {click: Keyboard_number, long_click: "Theme_settings", swipe_up: "Color_switch", label_symbol: "❀", has_menu: Page_Up, key_back_color: bnu, key_text_color: tnu, key_symbol_color: ksc4, width: 16}
+      - {click: Mode_switch, popup: ["Keyboard_func", "Charset_switch", "Henkan"], label_symbol: "⚔", 
+      swipe_up: Keyboard_bqrw, has_menu: Page_Down, key_back_color: bms, key_text_color: tms, key_text_size: 18, key_symbol_color: ksc4, width: 14}
+      - {click: space, ascii: space3, long_click: '	', swipe_up: "Menu", label_symbol: "⌨", has_menu: select1, key_back_color: bkg, key_text_color: tkg, width: 26}
+      - {click: ",", label: "，", swipe_right: "douhao", popup: [liquid_keyboard_ascii, liquid_keyboard_cn], swipe_up: "!", swipe_down: "zt{select2}", label_symbol: "!", has_menu: select2, key_back_color: bco, key_text_color: tco, key_symbol_color: th4, width: 14}
+      - {click: ".", label: "。", swipe_right: "juhao", popup: ["liquid_keyboard_math", "Keyboard_caiwu", "Keyboard_symbols"], swipe_up: "?", swipe_down: '{commit: "?"}', label_symbol: "?", has_menu: select3, key_back_color: bpe, key_text_color: tpe, key_symbol_color: th4, width: 14}
       - {click: Return, composing: Return1, key_back_color: benter, key_text_color: tenter, width: 16}
 
-  preset_keyboards/pinyin_simp/import_preset: fbjzj
+
+
   preset_keyboards/shuangpin/import_preset: xiaohe
   preset_keyboards/xiaohe:
     author: "aniu"
@@ -387,17 +393,17 @@ patch:
     ascii_mode: 0
     label_transform: uppercase
     keys: 
-    # 数字行
-      - {height: 13, click: 1, long_click: 1, swipe_up: '~', label_symbol: '~', key_back_color: bh0, key_text_color: th0}
-      - {click: 2, long_click: 2, swipe_up: "@", label_symbol: '@', key_back_color: bh0, key_text_color: th0}
-      - {click: 3, long_click: 3, swipe_up: "#",  label_symbol: '#', key_back_color: bh0, key_text_color: th0}
-      - {click: 4, long_click: 4, swipe_up: "$", label_symbol: '$', key_back_color: bh0, key_text_color: th0}
-      - {click: 5, long_click: 5, swipe_up: "%", label_symbol: '%', key_back_color: bh0, key_text_color: th0}
-      - {click: 6, long_click: 6, swipe_up: "^", label_symbol: '^', key_back_color: bh0, key_text_color: th0}
-      - {click: 7, long_click: 7, swipe_up: "&", label_symbol: '&', key_back_color: bh0, key_text_color: th0}
-      - {click: 8, long_click: 8, swipe_up: "*", label_symbol: '*', key_back_color: bh0, key_text_color: th0}
-      - {click: 9, long_click: 9, swipe_up: '\', label_symbol: '\', key_back_color: bh0, key_text_color: th0}
-      - {click: 0, long_click: 0, swipe_up: "/", swipe_down: fanxiegang, label_symbol: '/', key_back_color: bh0, key_text_color: th0}
+    # 数字行，第0行
+      - {click: 1, popup: [ ¹, ₁ ], swipe_up: '~', label_symbol: '~', key_back_color: bh0, key_text_color: th0}
+      - {click: 2, popup: [ ², ₂ ], swipe_up: "@", label_symbol: '@', key_back_color: bh0, key_text_color: th0}
+      - {click: 3, popup: [ ³, ₃ ], swipe_up: "#",  label_symbol: '#', key_back_color: bh0, key_text_color: th0}
+      - {click: 4, popup: [ ⁴, ₄ ], swipe_up: "$", label_symbol: '$', key_back_color: bh0, key_text_color: th0}
+      - {click: 5, popup: [ ⁵, ₅ ], swipe_up: "%", label_symbol: '%', key_back_color: bh0, key_text_color: th0}
+      - {click: 6, popup: [ ⁶, ₆ ], swipe_up: "^", label_symbol: '^', key_back_color: bh0, key_text_color: th0}
+      - {click: 7, popup: [ ⁷, ₇ ], swipe_up: "&", label_symbol: '&', key_back_color: bh0, key_text_color: th0}
+      - {click: 8, popup: [ ⁸, ₈ ], swipe_up: "*", label_symbol: '*', key_back_color: bh0, key_text_color: th0}
+      - {click: 9, popup: [ ⁹, ₉ ], swipe_up: '\', label_symbol: '\', key_back_color: bh0, key_text_color: th0}
+      - {click: 0, popup: [ ⁰, ₀ ], swipe_down: "/", swipe_up: fanxiegang, label_symbol: '/', key_back_color: bh0, key_text_color: th0}
     # 第一行
       - {click: q, long_click: Q, hint: "iu", label_symbol: '=',swipe_up: '=', key_back_color: bh1, key_text_color: th1}
       - {click: w, long_click: W, hint: "ei", label_symbol: '+', swipe_up: '+', key_back_color: bh1, key_text_color: th1}
@@ -411,10 +417,10 @@ patch:
       - {click: p, long_click: P, hint: "ie", label_symbol: '段', swipe_up: '{duanluo}{Left}{Left}{Left}{Left}', key_back_color: bh1, key_text_color: th1}
       # 第二行
       - {click: 'a', long_click: A, label_symbol: '—', swipe_up: '——', key_back_color: bh2, key_text_color: th2, width: 11.11}
-      - {click: 's', long_click: S, hint: "ong iong", symbol_text_size: 9, label_symbol: '<>',swipe_up: '<>{Left}',swipe_down: '{khj}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
-      - {click: 'd', long_click: D, hint: "ai", label_symbol: '[]', swipe_up: '[]{Left}', swipe_down: '{khz}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
-      - {click: 'f', long_click: F, hint: "en", label_symbol: '{}', swipe_up: '{}{Left}', swipe_down: '{}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
-      - {click: 'g', long_click: G, hint: "eng", label_symbol: '()', swipe_up: '(){Left}', swipe_down: '{khx}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
+      - {click: 's', long_click: S, hint: "ong iong", symbol_text_size: 9, label_symbol: '《》',swipe_up: '<>{Left}',swipe_down: '{khj}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
+      - {click: 'd', long_click: D, hint: "ai", label_symbol: '【】', swipe_up: '[]{Left}', swipe_down: '{khz}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
+      - {click: 'f', long_click: F, hint: "en", label_symbol: '｛｝', swipe_up: '｛｝{Left}', swipe_down: '{}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
+      - {click: 'g', long_click: G, hint: "eng", label_symbol: '（）', swipe_up: '(){Left}', swipe_down: '{khx}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
       - {click: 'h', long_click: H, hint: "ang", label_symbol: '“”', swipe_up: '“”{Left}', swipe_down: '{shuangyin}{shuangyin}{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
       - {click: 'j', long_click: J, hint: "an", label_symbol: "'",swipe_up: "danyinhao", swipe_down: '‘’{Left}', key_back_color: bh2, key_text_color: th2, width: 11.11}
       - {click: 'k', long_click: K, hint: "uai ing", label_symbol: '"', swipe_up: 'shuangyin', swipe_down: '"', key_back_color: bh2, key_text_color: th2, width: 11.11}
@@ -431,10 +437,10 @@ patch:
       - {click: BackSpace2,swipe_up: Clears, swipe_down: Esc1, key_back_color: bbs, key_text_color: tbs, width: 11.11}
       # 第四行
       - {click: Keyboard_number, long_click: "Theme_settings", swipe_up: "Color_switch", label_symbol: "❀", key_back_color: bnu, key_text_color: tnu, key_symbol_color: ksc4, width: 16}
-      - {click: Mode_switch, long_click: Keyboard_func, swipe_up: Keyboard_bqrw, has_menu: Page_Down, key_back_color: bms, key_text_color: tms, key_text_size: 18, key_symbol_color: ksc4, width: 14}
-      - {click: space, ascii: space3, popup: ["VOICE_ASSIST", "Menu"], label_symbol: "⌨",swipe_up: '	', has_menu: select1, key_back_color: bkg, key_text_color: tkg, width: 26}
+      - {click: Mode_switch, popup: ["Keyboard_func", "Charset_switch", "Henkan"], label_symbol: "⚔", swipe_up: Keyboard_bqrw, has_menu: Page_Down, key_back_color: bms, key_text_color: tms, key_text_size: 18, key_symbol_color: ksc4, width: 14}
+      - {click: space, ascii: space3, swipe_up: "Menu", label_symbol: "⌨",long_click: '	', has_menu: select1, key_back_color: bkg, key_text_color: tkg, width: 26}
       - {click: ",", label: "，", swipe_right: "douhao", long_click: liquid_keyboard_ascii, swipe_up: "!", label_symbol: "!", has_menu: select2, key_back_color: bco, key_text_color: tco, key_symbol_color: th4, width: 14}
-      - {click: ".", label: "。", swipe_right: "juhao", popup: ["Keyboard_symbols", "liquid_keyboard_caiwu", "liquid_keyboard_math"], swipe_up: "?",label_symbol: "?", has_menu: select3, key_back_color: bpe, key_text_color: tpe, key_symbol_color: th4, width: 14}
+      - {click: ".", label: "。", swipe_right: "juhao", popup: ["liquid_keyboard_math", "liquid_keyboard_caiwu", "Keyboard_symbols"], swipe_up: "?",label_symbol: "?", has_menu: select3, key_back_color: bpe, key_text_color: tpe, key_symbol_color: th4, width: 14}
       - {click: Return, composing: Return1, key_back_color: benter, key_text_color: tenter, width: 16}
 
 
@@ -446,6 +452,7 @@ patch:
     width: 24
    # height: 48
     ascii_mode: 1
+    # lock: true
     keys:
       - {click: "=", popup: ["≈", "≠"], label_symbol: "≈ ≠", key_back_color: bbs, key_symbol_color: ksc4, width: 14}
       # - {click: "%", popup: ["°", "$", "￥"], label_symbol: "￥ ° $", key_back_color: bco, width: 14}
@@ -458,7 +465,7 @@ patch:
       - {click: "*", popup: ["^", "×"], label_symbol: "^ ×", key_back_color: bms, width: 14}
       # - {click: "√", popup: ["π", "n", "e"], label_symbol: "e π n", key_back_color: bsh, width: 14}
       - {click: 4, long_click: "@", key_text_size: 28,key_back_color: bkg, width: 24}
-      - {click: 5, long_click: "liquid_keyboard_math", label_symbol: "∞", key_text_size: 28,key_back_color: bkg, width: 24}
+      - {click: 5, popup: ["liquid_keyboard_math", "liquid_keyboard_jiaobiao"], label_symbol: "数 角", key_text_size: 28,key_back_color: bkg, width: 24}
       - {click: 6, long_click: "%", key_text_size: 28,key_back_color: bkg, width: 24}
       # - {click: liquid_keyboard_unit, key_back_color: bsh, width: 14}
       - {click: "+", long_click: "±", key_back_color: bms, width: 14}
@@ -477,6 +484,41 @@ patch:
       - {click: Return, key_back_color: benter, key_text_color: tenter, width: 14}
 
     
+# 财务键盘
+  preset_keyboards/caiwu:
+    name: 财务
+    author: 'aniu'
+    ascii_mode: 0
+    width: 16.6
+    keys:
+      - {click: 万, label: 万, swipe_up: 萬, key_text_size: 28, key_back_color: bbs}
+      - {click: 壹, label: 1, swipe_up: '一{""}', key_text_size: 28, key_back_color: bkg}
+      - {click: 贰, label: 2, swipe_up: '二{""}', key_text_size: 28, key_back_color: bkg}
+      - {click: 叁, label: 3, swipe_up: '三{""}', key_text_size: 28, key_back_color: bkg}
+      - {click: 元, label: 元, swipe_up: '年', long_click: 年, key_text_size: 28, key_back_color: bkg}
+      - {click: BackSpace2, swipe_up: Clears, key_back_color: bbs, key_text_size: 28}
+      
+      - {click: 仟, label: 仟, swipe_up: 千, key_text_size: 28, key_back_color: bms}
+      - {click: 肆, label: 4, swipe_up: '四{""}', key_text_size: 28, key_back_color: bkg}
+      - {click: 伍, label: 5, swipe_up: '五{""}', key_text_size: 28, key_back_color: bkg}
+      - {click: 陆, label: 6, swipe_up: '六{""}', key_text_size: 28, key_back_color: bkg}
+      - {click: 角, label: 角, swipe_up: '月', long_click: 月, key_text_size: 28, key_back_color: bkg}
+      - {click: 整, label: 整, swipe_up: 正, long_click: "之", key_text_size: 28, key_back_color: bms, key_symbol_color: tkg}
+      
+      - {click: 佰, label: 佰, swipe_up: 百, key_text_size: 28, key_back_color: bsh}
+      - {click: 柒, label: 7, swipe_up: '七{""}', key_text_size: 28, key_back_color: bkg}
+      - {click: 捌, label: 8, swipe_up: '八{""}', key_text_size: 28, key_back_color: bkg}
+      - {click: 玖, label: 9, swipe_up: '九{""}', key_text_size: 28, key_back_color: bkg}
+      - {click: 分, label: 分, swipe_up: '日', popup: ["日", "号"], label_symbol: "日 号", key_text_size: 28, key_back_color: bkg}
+      - {click: 人民币, label: ￥, swipe_up: 美元, long_click: liquid_keyboard_caiwu, key_text_size: 28, key_back_color: bsh}
+      
+      - {click: Keyboard_default, key_back_color: bnu}
+      - {click: 拾, label: 拾, swipe_up: '十{""}', key_text_size: 28, key_back_color: bpe}
+      - {click: '零{""}', label: 0, swipe_up: 〇, key_text_size: 28, key_back_color: bkg}
+      - {click: 点, label: ., long_click: 第, key_text_size: 28, key_back_color: bkg}
+      - {click: 亿, label: 亿, swipe_up: 億, long_click: 星期, key_text_size: 28, key_back_color: bpe, key_symbol_color: tkg}
+      - {click: Return, key_back_color: benter, key_text_color: tenter}
+    
 # 功能键盘
   preset_keyboards/func:
     name: 功能
@@ -484,7 +526,7 @@ patch:
     ascii_mode: 0
     width: 25
     keys: 
-      - { click: "{Date}{Time}", label: "时间", long_click: Keyboard_newstore, label_symbol: " "}
+      - { click: Keyboard_editor, label: "编辑", long_click: Keyboard_newstore, label_symbol: " "}
       - { click: VOICE_ASSIST}
       - { click: Schema_switchcn, label: "切换方案"}
       - { click: Color_switch}
@@ -512,7 +554,7 @@ patch:
       - { click: Up, key_back_color: bkg}
       - { click: redo, key_back_color: bkg}
       - { click: paste, key_back_color: bkg}
-      - { click: Keyboard_last_lock,key_back_color: bnu}
+      - { click: Keyboard_last_lock, key_back_color: bnu}
       # 第二行
       - { click: Left, key_back_color: bkg}
       - { click: Shift_L, label: "选择", key_back_color: bsh}
@@ -551,7 +593,7 @@ patch:
   preset_keys/undo/label: "撤销"
   preset_keys/Mode_switch/states: [ 中, 英 ]
   preset_keys/space/label: ""
-  preset_keys/Keyboard_symbols/label: "符号"
+  preset_keys/Keyboard_symbols/label: "🔣"
   # preset_keys/Shift_L3/shift_lock: long
   "preset_keys/+":
     maohao: 
@@ -592,6 +634,11 @@ patch:
     khx:
       label: "()"
       commit: "()"
+    Keyboard_caiwu:
+      function: false
+      label: "💴"
+      select: "caiwu"
+      send: Eisu_toggle
     Keyboard_func:
       function: false
       label: "⚔"
@@ -613,7 +660,7 @@ patch:
       send: function
     liquid_keyboard_caiwu:
       command: liquid_keyboard
-      label: "财务"
+      label: "💰"
       option: "财务"
       send: function
     liquid_keyboard_unit: 
@@ -625,8 +672,14 @@ patch:
     liquid_keyboard_math:
       command: liquid_keyboard
       preview: "数学"
-      label: "数学"
+      label: "∞"
       option: "数学"
+      send: function
+    liquid_keyboard_jiaobiao:
+      command: liquid_keyboard
+      preview: "角标"
+      label: "◢"
+      option: "角标"
       send: function
     liquid_keyboard_markdown:
       command: liquid_keyboard
@@ -683,17 +736,11 @@ patch:
       shift_lock: long
     
   #========Markdown=======
-    表格: 
-      commit: "|||\n|:-:|:-:|\n|||"
-    代码块: 
-      commit: "```\n\n```"
-    链接: 
-      commit: '[]()'
-    标注: 
-      commit: ">[!note] "
-    待办: 
-      commit: "- [ ] "
+    表格: {commit: "|||\n|:-:|:-:|\n|||"}
+    代码块: {commit: "```\n\n```"}
+    链接: {commit: '[]()'}
+    标注: {commit: ">[!note] "}
+    待办: {commit: "- [ ] "}
   #=========================
-    duanluo:
-      commit: "<p></p>"
+    duanluo: {commit: "<p></p>"}
     

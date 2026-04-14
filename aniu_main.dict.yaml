@@ -3262,9 +3262,6 @@ aichat	aich	100
 莦	aief	5
 若没有	aieg	100
 萷	aiej	5
-我是初学者，	aieo	100	AI
-我是学生，	aieo	90	AI
-我是爱好者，	aieo	80	AI
 落选	aieq	100
 薄脆	aieq	90
 荡舟	aiet	100
@@ -3289,9 +3286,6 @@ aichat	aich	100
 葛洲坝	aifm	90
 落霞	aifn	100
 荒淫无度	aifo	100
-你是archlinux系统和sway窗口管理器专家，请问：	aifp	100	AI
-你是马克思主义哲学专家，请问：	aifp	90	AI
-你是物理学专家，请问：	aifp	80	AI
 蒋沈韩杨	aifs	100
 薄雾	aift	100
 蔆	aift	5
@@ -9333,8 +9327,9 @@ BBC	bbc	100
 耶鲁	bbcj	100
 耶稣	bbct	100
 陬	bbcy	100
-biangbiang面	bbd	100
-biangbiang面	bbdm	100
+𰻝𰻝面	bbd	100
+𰻝𰻝面	bbdm	100
+biangbiang面	bbdm	90
 子龙	bbdx	100
 孩子气	bbe	100
 孩子般	bbe	90
@@ -18120,7 +18115,6 @@ cosplay	cosp	90
 騋	cosw	5
 鯠	cosw	5
 骗术	cosy	100
-CosyVoice	cosy	90	AI
 Cosplay	cosy	80
 騏	cosy	5
 鯕	cosy	5
@@ -40747,7 +40741,7 @@ F盘	fel	90
 圤	fhyy	5
 未	fi	100
 求	fi	90
-救	fi	80
+救	fit	100
 运河区	fia	100
 老小区	fia	90
 Faceu激萌	fia	80
@@ -41149,9 +41143,9 @@ Firefox	firx	90
 无法相信	fisw	90
 无法可依	fisw	80
 无法相比	fisx	100
-坏消息	fit	100
-老油条	fit	90
-教学片	fit	80
+坏消息	fit	90
+老油条	fit	80
+教学片	fit	70
 嫠	fit	70
 釐	fita	5
 孷	fitb	5
@@ -44693,6 +44687,7 @@ FPS游戏	fpsc	100
 无可	fqsk	90
 无机	fqsm	100
 无锁机	fqsm	90
+霍尔木兹海峡	fqsm	80	#地理
 元配	fqsn	100
 赤色要塞	fqsp	100
 无梦	fqsq	100
@@ -46512,6 +46507,7 @@ Fuck you	fucy	100
 夫	fw	100
 替	fw	90
 零	fw	80
+夫人	fw	70
 0⃣	fw	5
 替代	fwa	100
 卖个萌	fwa	90
@@ -53122,7 +53118,6 @@ GIF图	gifl	90
 一小时	gijf	90
 㫘	gijf	5
 还是	gijg	100
-不是	gijg	90
 不早	gijh	100
 还早	gijh	90
 不畅	gijh	80
@@ -53695,7 +53690,6 @@ gitee	gite	90
 更	gj	100
 惠	gj	90
 不是	gj	80
-还是	gj	70
 亚非欧	gja	100
 正电荷	gja	90
 㻫	gjaf	5
@@ -56721,7 +56715,8 @@ G座	gow	90
 灭亡	goyy	100
 Go语言	goyy	90
 带	gp	100
-璇	gp	80
+璇	gp	90
+一定	gp	80
 不定式	gpa	100
 不定项	gpa	90
 开放式	gpa	80
@@ -81767,7 +81762,6 @@ JDK	jdk	100
 最大赢家	jdyp	100
 非议	jdyy	100
 明	je	100
-盟	je	90
 暖	je	80
 电气工程	jea	100
 电脑蓝屏	jean	100
@@ -87658,8 +87652,8 @@ JVM	jvm	100
 非谓语动词	jyyy	100
 旼	jyyy	5
 中	k	100
-吗	k	90
-呢	k	80
+呢	k	90
+吗	k	80
 吗？	k	70
 🀄	k	5
 越	ka	100
@@ -94466,7 +94460,8 @@ K歌红包	ksxq	100
 吴秀波	ktih	100
 吃水	ktii	100
 呼和浩特	ktik	100
-哈利波特	ktik	90
+哈利·波特	ktik	90
+哈利波特	ktik	80
 嗅觉	ktim	100
 呼和浩特市	ktim	90
 吃光	ktiq	100
@@ -108512,8 +108507,8 @@ MPV	mpv	100
 风铃	mrqw	100
 🎐	mrqw	5
 风镜	mrqx	100
-几年后	mrr	100
-网	mrr	90
+网	mrr	100
+几年后	mrr	90
 网报	mrrb	100
 刚把	mrrc	100
 网盾	mrrf	100
@@ -109921,8 +109916,8 @@ Music	musi	100
 分位	mvwu	100
 分化	mvwx	100
 分食	mvwy	100
-分组	mvx	100
-分红	mvx	90
+分红	mvx	100
+分组	mvx	90
 分红	mvxa	100
 分级	mvxb	100
 分组	mvxe	100
@@ -115094,7 +115089,6 @@ Notability	noty	100
 慷	nov	100
 慵	nov	90
 屡	nov	80
-Nova 13	nova	110	个人
 Nova	nova	100
 屡犯	novb	100
 慵	nove	100
@@ -120093,9 +120087,10 @@ OJBK	ojbk	100
 爆笑	ojtt	100
 爆竹	ojtt	90
 神符	ojtw	100
-判决	oju	100
 煜	oju	90
 火电站	oju	80
+福临门	oju	70
+福临门	ojuy	100
 判卷	ojub	100
 爆头	ojud	100
 判头	ojud	90
@@ -129437,6 +129432,7 @@ po主	poyg	100
 灾变	poyo	100
 家庭主妇	poyv	100
 䘷	poyy	5
+之	pp	100
 寂寞	pp	90
 宽容	pp	80
 实施	pp	70
@@ -140014,8 +140010,7 @@ QWERTZ键盘	qwee	90
 我们有	qweg	100
 鍮	qweh	5
 锻造	qwek	100
-Qwen3	qwen	100	AI
-Qwen	qwen	90	AI
+Qwen	qwen	100	AI
 欠赞	qweq	100
 QWERTY	qwer	100
 QWERTZ	qwer	90
@@ -144964,8 +144959,8 @@ Red Hat Enterprise Linux	rhel	90
 近些年	rhr	100
 招待所	rhr	90
 攫	rhr	80
-看报	rhrb	100
-年报	rhrb	90
+年报	rhrb	100
+看报	rhrb	90
 披挂	rhrf	100
 年后	rhrg	100
 近些年来	rhrg	90
@@ -155608,10 +155603,9 @@ setup	setu	100
 村	sf	90
 杜	sf	80
 想去	sf	70
+梅干菜	sfa	110
 西城区	sfa	100
 曹雪芹	sfa	90
-柯震东	sfa	80
-林雨薇	sfa	70
 枝芽	sfaa	100
 椒盐蘑菇	sfaa	90
 枝节	sfab	100
@@ -156381,6 +156375,7 @@ setup	setu	100
 櫮	sgkk	5
 要不起	sgkn	100
 想不起	sgkn	90
+梦到哪句说哪句	sgkq	100	#热词
 可不咋的	sgkr	100
 西川	sgkt	100
 梪	sgku	5
@@ -160624,8 +160619,6 @@ srt	srt	90
 林	ss	90
 森	ss	80
 想想	ss	70
-想要	ss	60
-要想	ss	50
 §	ss	40	符号
 基本功	ssa	100
 植树节	ssa	90
@@ -182100,8 +182093,8 @@ UX设计师	uxyj	100
 六线谱	uxyu	100
 癵	uxyw	5
 UX设计	uxyy	100
-门	uy	100
-六	uy	90
+六	uy	100
+门	uy	90
 辛	uy	80
 将就	uy	70
 🚪	uy	5
@@ -182274,7 +182267,6 @@ UX设计	uxyy	100
 阅读量	uyj	100
 问就是	uyj	90
 兹证明	uyj	80
-新话题	uyj	70	AI
 北京电影学院	uyjb	100
 北京电子科技学院	uyjb	90
 北京电视台	uyjc	100
@@ -182289,7 +182281,6 @@ UX设计	uxyy	100
 交变电流	uyji	90
 六日	uyjj	100
 阅读量	uyjl	100
-新话题：	uyjm	100	AI
 咨询师	uyjm	90
 北京时间	uyju	100
 咨询电话	uyjy	100
@@ -193763,6 +193754,7 @@ wifi6	wifu	100
 途中	wikh	100
 余光中	wikh	90
 Wikipedia	wiki	100
+wiki.archlinux.org	wiki	120
 化学品	wikk	100
 叙别	wikl	100
 儅	wikl	5
@@ -199288,8 +199280,8 @@ WTO	wto	100
 价值取向	wwbt	90
 人限	wwbv	100
 仪仗队	wwbw	100
-怂恿	wwc	100
-价值观	wwc	90
+怂恿	wwc	90
+价值观	wwc	100
 令人难以	wwcc	100
 人参	wwcd	100
 坐骑	wwcd	90
@@ -212180,6 +212172,7 @@ Y轴	ylm	90
 言必有据	yner	100
 良性肿瘤	yneu	100
 讯	ynf	100
+词元	ynf	90	#科技
 记载	ynfa	100
 词霸	ynfa	90
 离异无孩	ynfb	100
@@ -212195,6 +212188,7 @@ Y轴	ylm	90
 义愤填膺	ynfo	100
 记过	ynfp	100
 主导地位	ynfw	100
+词元	yfnq	100	#科技
 读书无用论	ynfy	100
 忘情	yng	100
 忘怀	yng	90
@@ -216210,7 +216204,6 @@ A. B. C. D. 	zab	100
 A. B. C. D.	zab	90
 α	zaf	100
 Α	zaf	90
-你是archlinux系统和sway窗口管理器专家，能为用户提供最新的解决方案和操作实例，你风格严谨，不会随意编造。	zai	100	AI	
 Ｏ(≧▽≦)Ｏ在~	zai	80
 /傲慢	zam	100
 [傲慢]	zam	90
