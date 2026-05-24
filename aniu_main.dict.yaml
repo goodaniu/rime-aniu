@@ -17075,7 +17075,6 @@ Command+Y	cmdy	90
 鲉	cmgg	5
 能赚一点是一点	cmgh	100
 鲖	cmgk	5
-骚凹瑞	cmgm	100
 观点	cmh	100
 皴	cmh	90
 台风眼	cmh	80
@@ -20291,6 +20290,7 @@ Daemon Tools	dae	80
 左脚	daef	100
 礡	daef	5
 䃊	daeg	5
+砸盘	dael	110
 左肋	dael	100
 毻	daen	5
 遀	daep	5
@@ -29091,6 +29091,7 @@ Dvorak	dvok	100
 大人物	dwk	80
 蠢哭	dwkd	100
 存储器	dwkd	90
+布伦特原油	dwki	110	#热词
 大合唱	dwkj	100
 赝品	dwkk	100
 奢侈品	dwkk	90
@@ -36835,8 +36836,8 @@ e充电	eyjn	90
 腾讯文档助手	eyyr	100
 爱谁谁	eyyr	90
 腾讯文档	eyys	100
-地	f	100
-都	f	90
+都	f	100
+地	f	90
 去	f	80
 十	f	70
 🔟	f	60
@@ -37620,7 +37621,6 @@ FBI WARNING	fbiw	100
 动	fc	100
 却	fc	90
 支	fc	80
-☁	fc	5
 动工	fca	100
 动工	fcaa	100
 云散	fcae	100
@@ -38038,6 +38038,7 @@ FCPX	fcpx	90
 支管	fctp	90
 支系	fctx	100
 云	fcu	100
+☁	fcu	50
 去痛	fcuc	100
 运送	fcud	100
 支前	fcue	100
@@ -38485,7 +38486,6 @@ FDMA	fdma	100
 真	fe	100
 直	fe	90
 博	fe	80
-都有	fe	70
 二月	fe	60
 无用功	fea	100
 真苦	fead	100
@@ -40741,7 +40741,6 @@ F盘	fel	90
 圤	fhyy	5
 未	fi	100
 求	fi	90
-救	fit	100
 运河区	fia	100
 老小区	fia	90
 Faceu激萌	fia	80
@@ -41143,6 +41142,7 @@ Firefox	firx	90
 无法相信	fisw	90
 无法可依	fisw	80
 无法相比	fisx	100
+救	fit	100
 坏消息	fit	90
 老油条	fit	80
 教学片	fit	70
@@ -44560,8 +44560,8 @@ FPS游戏	fpsc	100
 无精	fqog	90
 无业	fqoh	100
 均应	fqoi	100
-无神	fqoj	90
 元神	fqoj	100
+无神	fqoj	90
 无烟	fqol	100
 无视	fqom	100
 远视	fqom	90
@@ -47692,13 +47692,12 @@ F组	fxe	80
 不	g	100
 一	g	90
 到	g	80
-一下	g	60
+不是	g	60
 1⃣	g	5
 🙅‍♀️	g	5
 🙅‍♂️	g	5
 🙅	g	5
 开	ga	100
-型	gaj	90
 弄	ga	90
 形式	gaa	100
 一幕幕	gaa	90
@@ -47954,6 +47953,7 @@ F组	fxe	80
 武当	gaiv	100
 开滦	gaiy	100
 刑	gaj	100
+型	gaj	90
 一共是	gaj	90
 与或非	gaj	80
 与或非	gajd	100
@@ -52829,7 +52829,7 @@ giao	giao	100
 刑满出狱	gibv	100
 不限	gibv	90
 带小孩	giby	100
-不能	gic	100
+还能	gic	100
 玩游戏	gic	90
 碧油鸡	gic	80
 🎮	gic	5
@@ -53689,7 +53689,6 @@ gitee	gite	90
 王洪文	giyy	90
 更	gj	100
 惠	gj	90
-不是	gj	80
 亚非欧	gja	100
 正电荷	gja	90
 㻫	gjaf	5
@@ -58147,7 +58146,6 @@ Groove音乐	groq	100
 麦斯威尔	gsdq	90
 不要在一棵树上吊死	gsdq	80
 不要在该奋斗的年纪选择安逸	gsdq	70
-不要在垃圾堆里找男人	gsdw	100
 膥	gsdw	5
 不要在意	gsdx	100
 一概而论	gsdy	100
@@ -67287,8 +67285,8 @@ https协议	htty	90
 身高	htyl	100
 身亡	htyy	100
 饼	hu	100
-目前	hu	80
 饺	hu	90
+目前	hu	80
 🥟	hu	5
 🧇	hu	5
 🍕	hu	5
@@ -68324,8 +68322,8 @@ Happy Valentine's Day	hvd	90
 微信语音	hwyx	100
 身体语言	hwyy	100
 飤	hwyy	5
-些	hx	100
-此	hx	90
+此	hx	100
+些	hx	90
 紫	hx	80
 Hz	hx	70
 🟪	hx	5
@@ -72728,7 +72726,6 @@ IGMP	igmp	100
 氺	ihyy	5
 水	ii	100
 消	ii	90
-沙	iit	100
 🌊	ii	5
 💦	ii	5
 💧	ii	5
@@ -73453,9 +73450,10 @@ IGMP	igmp	100
 水柱	iisy	100
 浙江杭州	iisy	90
 㵉	iisy	5
-水滴筹	iit	70
+沙	iit	100
 裟	iit	90
 激光笔	iit	80
+水滴筹	iit	70
 消长	iita	100
 鲨	iitc	100
 䣉	iitc	5
@@ -82752,10 +82750,10 @@ JetBrains	jetb	100
 冒出	jhbm	100
 畅聊	jhbq	100
 冒险	jhbw	100
-畅通	jhc	100
-申通	jhc	90
-畅通	jhce	100
-申通	jhce	90
+申通	jhc	100
+畅通	jhc	90
+申通	jhce	100
+畅通	jhce	90
 显卡驱动	jhcf	100
 虫鱼	jhct	100
 蚾	jhcy	5
@@ -83779,7 +83777,6 @@ jiojio	jioo	80
 日日夜夜	jjyy	80
 䖵	jjyy	5
 是啊	jk	100
-影响	jk	90
 是吗	jk	80
 是吧	jk	70
 虹口区	jka	100
@@ -90181,8 +90178,8 @@ kg	kg	70
 中巴	khc	90
 中戏	khca	100
 串戏	khca	90
-串通	khce	100
-中通	khce	90
+中通	khce	100
+串通	khce	90
 中	khci	100
 串台	khck	100
 赴台	khck	90
@@ -94246,7 +94243,6 @@ K歌之王	kspg	90
 整他	kswb	100
 速传	kswf	70
 整倒	kswg	100
-只要你乖给你买条gai	kswg	90
 整个	kswh	100
 整修	kswh	90
 整盒	kswl	100
@@ -95840,6 +95836,7 @@ kWh	kwh	80
 哔	kxf	100
 超强二笔	kxft	100
 口红雨衣	kxfy	100
+K线	kxg	110	#经济
 叶绿素	kxg	100
 喑	kxg	90
 超级玛莉	kxga	100
@@ -96318,6 +96315,7 @@ LAMY	lamy	100
 果葡糖浆	laou	100
 黒	laou	5
 加藤鹰	laow	100
+羁縻	laox	110
 野鹿	laox	100
 羁旅	lap	100
 野宴	lapj	100
@@ -101945,15 +101943,15 @@ Logic Pro X	lpx	80
 䭕	lrwv	5
 跌坐	lrww	100
 跌价	lrww	90
-暂停	lrwy	100
-跌停	lrwy	90
+跌停	lrwy	100
+暂停	lrwy	90
 暂住	lrwy	80
 力排众议	lrwy	70
 軼	lrwy	5
 ⏸	lrwy	5
 斩杀线	lrx	100
-转接线	lrx	80
 办手续	lrx	90
+转接线	lrx	80
 四年级	lrx	70
 四年级	lrxb	100
 暂缓	lrxe	100
@@ -103777,6 +103775,7 @@ LTPS	ltps	100
 则	m	90
 风	m	80
 八	m	70
+💨	m	50
 8⃣	m	5
 🎱	m	5
 曲	ma	100
@@ -104100,6 +104099,7 @@ Maya	maya	100
 㞽	mayy	5
 爷	mb	100
 邮	mb	90
+凸	mb	85	#容错
 风险	mb	80
 👴	mb	5
 MBA	mba	100
@@ -104404,6 +104404,7 @@ Mbps	mbps	100
 公爹	mcmq	100
 凤凰	mcmr	100
 公网	mcmr	90
+🐦‍🔥	mcmr	50
 公账	mcmt	70
 公分	mcmv	100
 峻岭	mcmw	100
@@ -107037,6 +107038,7 @@ mlgb	mlgb	90
 山	mm	100
 册	mm	90
 删	mm	80
+凹	mm	70
 ⛰	mm	5
 山东	mma	100
 删节	mmab	100
@@ -107119,7 +107121,6 @@ mlgb	mlgb	90
 岗培	mmfu	100
 山坳	mmfx	100
 贫贱夫妻百事哀	mmfy	100
-凹	mmg	100
 岫	mmg	90
 峒	mmg	80
 兕	mmg	70
@@ -107214,6 +107215,7 @@ mlgb	mlgb	90
 岚图	mmlt	100
 凤凰网	mmm	100
 山贼	mmma	100
+凹凸	mmmb	90
 山崖	mmmd	100
 山岩	mmmd	90
 山崩	mmme	100
@@ -108192,8 +108194,7 @@ MPV	mpv	100
 见谅	mqyy	100
 分裂主义	mqyy	90
 刚	mr	100
-💨	mr	5
-🕸	mr	5
+冈	mr	90
 刚巧	mra	100
 网工	mraa	100
 㟛	mraf	5
@@ -108509,6 +108510,7 @@ MPV	mpv	100
 风镜	mrqx	100
 网	mrr	100
 几年后	mrr	90
+🕸	mrr	5
 网报	mrrb	100
 刚把	mrrc	100
 网盾	mrrf	100
@@ -110798,7 +110800,7 @@ Mysql	mysq	90
 已	n	100
 性	n	90
 书	n	80
-性质	n	70
+民生	n	70
 📒	n	5
 📓	n	5
 📔	n	5
@@ -113362,7 +113364,6 @@ NGP	ngp	100
 司法鉴定	nijp	100
 心照	nijv	100
 心中	nik	100
-Nike	nik	90
 飞沙走石	nikd	100
 Nike	nike	100
 憆	nikf	5
@@ -116879,7 +116880,6 @@ n个	nwh	100
 羽化登仙	nwww	100
 屡创佳绩	nwwx	100
 性价比	nwx	100
-羽化	nwx	90
 尽人皆知	nwxt	100
 性价比低	nwxw	100
 性价比	nwxx	100
@@ -117283,6 +117283,7 @@ no zuo no die why you try	nxnt	100
 懍	nylt	5
 忧谗畏讥	nyly	100
 忻州市	nym	100
+NYMEX原油	nymi	110	#热词
 忻州市	nymi	100
 翠谷	nymk	100
 忼	nymn	5
@@ -120090,7 +120091,6 @@ OJBK	ojbk	100
 煜	oju	90
 火电站	oju	80
 福临门	oju	70
-福临门	ojuy	100
 判卷	ojub	100
 爆头	ojud	100
 判头	ojud	90
@@ -120108,6 +120108,7 @@ OJBK	ojbk	100
 数量关系	ojut	90
 神券	ojuv	100
 爆冷	ojuw	100
+福临门	ojuy	100
 爆发	ojv	100
 火影忍者	ojvf	100
 爆发	ojvh	100
@@ -124811,6 +124812,7 @@ Outlook	outl	100
 着	p	100
 羊	p	90
 之	p	80
+之一	p	70
 空	pa	110
 穿	pa	100
 差	pa	90
@@ -127605,7 +127607,6 @@ Picsew	picw	100
 定活两便	pigw	100
 家常饭	pih	100
 旅游点	pih	90
-蜜汁凸起	pihk	100
 旅游点	pihk	90
 家常饭	pihr	100
 蜜汁微笑	piht	100
@@ -128152,9 +128153,9 @@ ping	ping	100
 宫主	pkyg	100
 密特朗	pkyv	100
 空口说白话	pkyy	100
+穷	pl	110
 军	pl	100
 宗	pl	90
-裸	pl	80
 窝边草	pla	100
 Player	pla	90
 军工	plaa	100
@@ -128375,7 +128376,6 @@ Player	play	80
 襡	plqj	5
 鶤	plqo	5
 穷死	plqx	100
-穷	plr	100
 家里的	plr	90
 赛车手	plr	80
 军援	plre	100
@@ -150734,10 +150734,8 @@ RSS阅读器	rssu	70
 托蒂	rtau	100
 插花	rtaw	100
 拖	rtb	100
-郫	rtb	90
 看笑了	rtb	80
 拉条子	rtbb	100
-郫	rtbh	100
 卑职	rtbk	100
 播出	rtbm	100
 揪出	rtbm	90
@@ -150797,6 +150795,7 @@ RSS阅读器	rssu	70
 扦	rtf	70
 投入运营	rtfa	100
 拖地	rtfb	100
+郫	rtfb	70
 手动	rtfc	100
 拖动	rtfc	90
 托运	rtfc	80
@@ -153924,7 +153923,7 @@ Ruby	ruby	100
 白话文	ryyy	90
 抆	ryyy	5
 要	s	100
-可	sk	100
+想	s	90
 其	s	80
 可以	s	70
 🤔	s	5
@@ -156727,7 +156726,6 @@ setup	setu	100
 本文	sgyy	100
 本该	sgyy	90
 西文	sgyy	80
-想	s	90
 相	sh	90
 朴	sh	80
 相切	sha	100
@@ -157858,6 +157856,7 @@ Happy birthday	sjnq	90
 🔎	sjyq	5
 要是说	sjyu	100
 可是这个	sjyw	100
+可	sk	100
 哥	sk	90
 歌	sk	80
 其中	sk	80
@@ -164401,6 +164400,7 @@ TDMA	tdma	90
 矩	tdn	100
 稽	tdn	90
 憩	tdn	80
+智慧屏	tdn	70
 乱民	tdna	100
 短剧	tdnd	100
 諬	tdnd	5
@@ -177933,6 +177933,8 @@ UI设计	uiyy	100
 䇍	ulyy	5
 商	um	100
 闹	um	80
+问：	um	70
+道：	um	60
 减分项	uma	100
 闹市区	uma	90
 端节	umab	100
@@ -190662,7 +190664,6 @@ wayland	wayl	90
 保险丝	wbxx	100
 创设	wby	100
 个子高	wby	90
-伋	wbyy	5
 他让	wbyh	100
 他就	wbyi	100
 他也就是	wbyj	100
@@ -190673,6 +190674,7 @@ wayland	wayl	90
 他说	wbyu	100
 全职主妇	wbyv	100
 仔畜	wbyx	100
+伋	wbyy	5
 似	wc	100
 仅	wc	90
 俊	wc	80
@@ -193753,8 +193755,8 @@ wifi6	wifu	100
 㑽	wikf	5
 途中	wikh	100
 余光中	wikh	90
-Wikipedia	wiki	100
 wiki.archlinux.org	wiki	120
+Wikipedia	wiki	100
 化学品	wikk	100
 叙别	wikl	100
 儅	wikl	5
@@ -199280,8 +199282,8 @@ WTO	wto	100
 价值取向	wwbt	90
 人限	wwbv	100
 仪仗队	wwbw	100
-怂恿	wwc	90
 价值观	wwc	100
+怂恿	wwc	90
 令人难以	wwcc	100
 人参	wwcd	100
 坐骑	wwcd	90
@@ -200310,7 +200312,6 @@ WWDC	wwdc	80
 货币	wxmw	100
 💲	wxmw	5
 创意性	wxn	100
-億	wxny	5
 佛殿	wxna	100
 🛐	wxna	5
 创意性地	wxnf	100
@@ -200320,6 +200321,7 @@ WWDC	wwdc	80
 佛性	wxns	100
 创意性	wxns	90
 倾尽	wxny	100
+億	wxny	5
 华为	wxo	100
 化为	wxo	90
 低音炮	wxo	80
@@ -209321,6 +209323,7 @@ yeelight	yeet	100
 读心	yfni	100
 读书	yfnn	100
 诗书	yfnn	90
+词元	yfnq	100	#科技
 主动性	yfns	100
 诗性	yfns	90
 读屏	yfnu	100
@@ -210721,7 +210724,6 @@ yeelight	yeet	100
 刘	yj	90
 剂	yj	80
 就是	yj	70
-这时	yj	50
 文景苑	yja	100
 衰落	yjai	100
 衰草	yjaj	100
@@ -210782,6 +210784,7 @@ yeelight	yeet	100
 就是有点费人	yjew	90
 就是有点费	yjex	100
 文明用语	yjey	100
+这时	yjf	110
 衰老	yjf	100
 衰运	yjfc	100
 斉	yjff	5
@@ -212188,7 +212191,6 @@ Y轴	ylm	90
 义愤填膺	ynfo	100
 记过	ynfp	100
 主导地位	ynfw	100
-词元	yfnq	100	#科技
 读书无用论	ynfy	100
 忘情	yng	100
 忘怀	yng	90

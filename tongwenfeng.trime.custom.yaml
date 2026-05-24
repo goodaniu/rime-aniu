@@ -1,6 +1,6 @@
 # 基于默认的同文风主题，制作本补丁
 patch:
-  config_version: "3.3.9"
+  config_version: "3.3.10"
   name: aniu定制       #方案名称
   author: "aniu <goodaniu@163.com>"
       
@@ -12,6 +12,10 @@ patch:
   # 风格设定
   style/+:
     __patch:
+      candidate_font:  #候选栏字体，大字库
+        - "TH-Khaai-TP2.ttf"
+        - "TH-Khaai-TP0.ttf"
+        - "TH-Khaai-TP16.ttf"
       horizontal_gap: 1
       vertical_gap: 1
       round_corner: 4
@@ -21,7 +25,7 @@ patch:
       # keyboard_padding_bottom: 30
       candidate_view_height: 30  
       # key_text_size: 32              #pad 32
-      # comment_position: right #编码提示布局位置：right / top / overlay
+      comment_position: top #编码提示布局位置：right / top / overlay
       # comment_text_size: 8
       enter_labels/default: ⏎
 
@@ -40,6 +44,7 @@ patch:
         style: "ic@emoticon"
       # 前景样式可以为空，使用默认样式，按钮将显示为 action 的 label
       action: liquid_keyboard_emoji
+      long_press_action: liquid_keyboard_math
   
     clipboard_button: &clipboard_button
       foreground:
@@ -72,6 +77,7 @@ patch:
         style: "☟"
         font_size: 23
       action: "`"
+      long_press_action: "/"
     punct_button: &punct_button
       foreground:
         option_styles: ["，。", ",."]
@@ -82,6 +88,7 @@ patch:
         font_size: 20
       action: Schema_switchcn
   # 右侧按钮列表（从右向左排列）
+      long_press_action: "Menu"
     buttons: 
       - *hide_button
       - *chaxun_button
@@ -341,9 +348,9 @@ patch:
       - {click: 7, popup: [ ⁷, ₇ ], swipe_up: "&", label_symbol: '&', key_back_color: bh0, key_text_color: th0}
       - {click: 8, popup: [ ⁸, ₈ ], swipe_up: "*", label_symbol: '*', key_back_color: bh0, key_text_color: th0}
       - {click: 9, popup: [ ⁹, ₉ ], swipe_up: '\', label_symbol: '\', key_back_color: bh0, key_text_color: th0}
-      - {click: 0, popup: [ ⁰, ₀ ], swipe_up: '{fanxiegang}', label_symbol: '/', swipe_down: "/", key_back_color: bh0, key_text_color: th0}
+      - {click: 0, popup: [ ⁰, ₀ ], swipe_up: '{fanxiegang}', label_symbol: '/', key_back_color: bh0, key_text_color: th0}
     # 第一行
-      - {click: q, long_click: Q, label_symbol: '=',swipe_up: '=', key_back_color: bh1, key_text_color: th1}
+      - {click: q, long_click: Q, label_symbol: '=', swipe_up: '=', key_back_color: bh1, key_text_color: th1}
       - {click: w, long_click: W, label_symbol: '+', swipe_up: '+', key_back_color: bh1, key_text_color: th1}
       - {click: e, long_click: E, label_symbol: '-', swipe_up: '-', key_back_color: bh1, key_text_color: th1}
       - {click: r, long_click: R, label_symbol: '×', swipe_up: '×', key_back_color: bh1, key_text_color: th1}
@@ -375,11 +382,11 @@ patch:
       - {click: BackSpace2,swipe_up: Clears, swipe_down: Esc1, key_back_color: bbs, key_text_color: tbs, width: 11.11}
       # 第四行
       - {click: Keyboard_number, long_click: "Theme_settings", swipe_up: "Color_switch", label_symbol: "❀", has_menu: Page_Up, key_back_color: bnu, key_text_color: tnu, key_symbol_color: ksc4, width: 16}
-      - {click: Mode_switch, popup: ["Keyboard_func", "Charset_switch", "Henkan"], label_symbol: "⚔", 
+      - {click: Mode_switch, popup: ["Keyboard_func", "Charset_switch"], label_symbol: "⚔", 
       swipe_up: Keyboard_bqrw, has_menu: Page_Down, key_back_color: bms, key_text_color: tms, key_text_size: 18, key_symbol_color: ksc4, width: 14}
-      - {click: space, ascii: space3, long_click: '	', swipe_up: "Menu", label_symbol: "⌨", has_menu: select1, key_back_color: bkg, key_text_color: tkg, width: 26}
-      - {click: ",", label: "，", swipe_right: "douhao", popup: [liquid_keyboard_ascii, liquid_keyboard_cn], swipe_up: "!", swipe_down: "zt{select2}", label_symbol: "!", has_menu: select2, key_back_color: bco, key_text_color: tco, key_symbol_color: th4, width: 14}
-      - {click: ".", label: "。", swipe_right: "juhao", popup: ["liquid_keyboard_math", "Keyboard_caiwu", "Keyboard_symbols"], swipe_up: "?", swipe_down: '{commit: "?"}', label_symbol: "?", has_menu: select3, key_back_color: bpe, key_text_color: tpe, key_symbol_color: th4, width: 14}
+      - {click: space, ascii: space3, long_click: '	', swipe_up: "	", has_menu: select1, key_back_color: bkg, key_text_color: tkg, width: 26}
+      - {click: ",", label: "，", popup: ["douhao", "juhao", "gantanhao", "wenhao"], swipe_up: "!", label_symbol: "!", has_menu: select2, key_back_color: bco, key_text_color: tco, key_symbol_color: th4, width: 14}
+      - {click: ".", label: "。", popup: ["liquid_keyboard_math", "Keyboard_caiwu", "Keyboard_symbols"], swipe_up: "?", label_symbol: "?", has_menu: select3, key_back_color: bpe, key_text_color: tpe, key_symbol_color: th4, width: 14}
       - {click: Return, composing: Return1, key_back_color: benter, key_text_color: tenter, width: 16}
 
 
@@ -537,7 +544,7 @@ patch:
       - { click: Sync}
       
       - { click: Keyboard_last_lock, key_back_color: bnu}
-      - { click: Bing}
+      - { click: Zdic}
       - { click: TrimeWiki}
       - { click: Settings}
   
@@ -608,6 +615,12 @@ patch:
     juhao: 
       label: "."
       commit: "."
+    wenhao:
+      label: "?"
+      commit: "?"
+    gantanhao:
+      label: "!"
+      commit: "!"
     shuangyin:
       label: '"'
       commit: '"'
@@ -711,6 +724,7 @@ patch:
       option: '%s' #分享指定文本: %s或者%1$s为当前字符
     Deploy: 
       label: 部署备用
+      preview: "开玩笑"
       # send: function
       # command: run
       # option: "com.osfans.trime.action.DEPLOY"
